@@ -11,7 +11,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = example
 TEMPLATE = app
 
-INCLUDEPATH += "../lib"
+INCLUDEPATH += ../lib
 
 LIBS += ../bin/ConsolePlan.dll
 
