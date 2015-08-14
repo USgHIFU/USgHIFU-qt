@@ -1,0 +1,12 @@
+#ifndef SERVERPLAN_GLOBAL_H
+#define SERVERPLAN_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SERVERPLAN_LIBRARY)
+#  define SERVERPLANSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define SERVERPLANSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SERVERPLAN_GLOBAL_H
