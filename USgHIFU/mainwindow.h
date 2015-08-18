@@ -20,6 +20,7 @@ private slots:
 
 private:
     SmtpClient* smtp;
+    QString attachmentFileName;
 
     QPushButton* btnSend;
     QLabel* statusInfo;

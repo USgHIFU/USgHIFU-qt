@@ -13,6 +13,9 @@ MainWindow::MainWindow(QWidget *parent)
 
     smtp = new SmtpClient("smtp.163.com", 465, SmtpClient::SslConnection);
 
+    // The name of the attachment file
+    attachmentFileName = "../Hackthon(20150726).doc";
+
     btnSend = new QPushButton("send",this);
     QVBoxLayout* layout = new QVBoxLayout;
     layout->addWidget(btnSend);
@@ -60,7 +63,7 @@ bool MainWindow::sendMail()
     // Now add an attachment to the email.
     // First we create a MimeAttachment object.
 
-    message.addPart(new MimeAttachment(new QFile("../Hackthon(20150726).doc")));
+    message.addPart(new MimeAttachment(new QFile(attachmentFileName)));
 
     // Now we can send the mail
 
