@@ -11,9 +11,11 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = USgHIFU
 TEMPLATE = app
 
-INCLUDEPATH += ../lib/SMTPEmail
+INCLUDEPATH += ../lib/SMTPEmail \
+               ../lib/Monitor
 
-LIBS += ../bin/SMTPEmail.dll
+LIBS += ../bin/SMTPEmail.dll \
+        ../bin/PerformanceMonitor.dll
 
 SOURCES += main.cpp\
         mainwindow.cpp

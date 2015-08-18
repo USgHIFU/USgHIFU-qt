@@ -6,6 +6,7 @@ class QLabel;
 
 #include <QMainWindow>
 #include "SmtpMime"
+#include "performancemonitor.h"
 
 class MainWindow : public QMainWindow
 {
@@ -17,13 +18,20 @@ public:
 
 private slots:
     void notificationUpdate();
+    void memLoadUpdate(DWORD memLoad);
+    void availPhysUpdate(DWORDLONG availPhys);
+    void shutDownPC();
 
 private:
     SmtpClient* smtp;
     QString attachmentFileName;
+    PerformanceMonitor* monitor;
 
     QPushButton* btnSend;
+    QPushButton* btnShutDownPC;
     QLabel* statusInfo;
+    QLabel* memLoadInfo;
+    QLabel* availPhysInfo;
 
     bool loginAccount();
     bool sendMail();

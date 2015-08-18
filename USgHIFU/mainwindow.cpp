@@ -16,18 +16,29 @@ MainWindow::MainWindow(QWidget *parent)
     // The name of the attachment file
     attachmentFileName = "../Hackthon(20150726).doc";
 
+    monitor = new PerformanceMonitor(this);
+
     btnSend = new QPushButton("send",this);
+    btnShutDownPC = new QPushButton("shut down",this);
     QVBoxLayout* layout = new QVBoxLayout;
     layout->addWidget(btnSend);
+    layout->addWidget(btnShutDownPC);
 
     statusInfo = new QLabel(this);
+    memLoadInfo = new QLabel(this);
+    availPhysInfo = new QLabel(this);
     statusBar()->addWidget(statusInfo);
+    statusBar()->addWidget(memLoadInfo);
+    statusBar()->addWidget(availPhysInfo);
 
     QWidget* widget = new QWidget;
     widget->setLayout(layout);
     setCentralWidget(widget);
 
     connect(btnSend,SIGNAL(clicked(bool)),SLOT(notificationUpdate()));
+    connect(btnShutDownPC,SIGNAL(clicked(bool)),SLOT(shutDownPC()));
+    connect(monitor,SIGNAL(memLoadUpdate(DWORD)),SLOT(memLoadUpdate(DWORD)));
+    connect(monitor,SIGNAL(memAvailPhysUpdate(DWORDLONG)),SLOT(availPhysUpdate(DWORDLONG)));
 }
 
 MainWindow::~MainWindow()
@@ -123,4 +134,25 @@ bool MainWindow::loginAccount()
 void MainWindow::notificationUpdate()
 {
     sendMail();
+}
+
+void MainWindow::shutDownPC()
+{
+    if (monitor->shutDownPC())
+    {
+        qDebug() << "Shutting down computer.";
+    }else
+    {
+        qDebug() << "Cannot shut down computer.";
+    }
+}
+
+void MainWindow::memLoadUpdate(DWORD memLoad)
+{
+    memLoadInfo->setText(QString("Memory used ratio: %1%\n.").arg(memLoad));
+}
+
+void MainWindow::availPhysUpdate(DWORDLONG availPhys)
+{
+    availPhysInfo->setText(QString("Available memory: %1\n.").arg(availPhys));
 }
