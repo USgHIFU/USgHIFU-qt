@@ -14,7 +14,7 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-INCLUDEPATH += ../lib
+INCLUDEPATH += ../lib/SMTPEmail
 
 LIBS += ../bin/SMTPEmail.dll
 
