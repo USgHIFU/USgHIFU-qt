@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     // First we need to create an SmtpClient object
-    // We will use the Gmail's smtp server (smtp.163.com, port 465, ssl)
+    // We will use the 163 mail's smtp server (smtp.163.com, port 465, ssl)
 
     SmtpClient smtp("smtp.163.com", 465, SmtpClient::SslConnection);
 
@@ -38,6 +38,9 @@ int main(int argc, char *argv[])
     // Now add it to the mail
 
     message.addPart(&text);
+
+    // Now add an attachment to the email.
+    // First we create a MimeAttachment object.
 
     message.addPart(new MimeAttachment(new QFile("../Hackthon(20150726).doc")));
 
