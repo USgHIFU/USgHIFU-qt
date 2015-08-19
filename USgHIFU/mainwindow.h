@@ -8,6 +8,8 @@ class QLabel;
 #include "SmtpMime"
 #include "performancemonitor.h"
 
+Q_DECLARE_LOGGING_CATEGORY(MAIL)
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -26,6 +28,13 @@ private:
     SmtpClient* smtp;
     QString attachmentFileName;
     PerformanceMonitor* monitor;
+
+    enum MailAction
+    {
+        ConnectToHost,
+        LoginAccount,
+        SendMail
+    };
 
     QPushButton* btnSend;
     QPushButton* btnShutDownPC;

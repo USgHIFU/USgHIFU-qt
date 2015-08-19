@@ -1,6 +1,9 @@
 #include "performancemonitor.h"
 #include <QTimer>
 
+Q_LOGGING_CATEGORY(MEMORY_MONITOR,"MEMORY MONITOR")
+Q_LOGGING_CATEGORY(SHUT_DOWN_PC,"SHUT DOWN PC")
+
 PerformanceMonitor::PerformanceMonitor(QObject *parent) : QObject(parent)
 {
     memStatus.dwLength = sizeof(memStatus);
@@ -21,8 +24,15 @@ bool PerformanceMonitor::shutDownPC()
 
     if (!OpenProcessToken(GetCurrentProcess(),TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY,&hToken))
     {
-//        qDebug() << "Cannot find the current process.";
+        qCWarning(SHUT_DOWN_PC()) << SHUT_DOWN_PC().categoryName()
+                                  << "Action #" << GetProcessToken
+                                  << "Result: cannot find the current process.";
         return false;
+    }else
+    {
+        qCDebug(SHUT_DOWN_PC()) << SHUT_DOWN_PC().categoryName()
+                                << "Action #" << GetProcessToken
+                                << "Result: find the current process.";
     }
 
     LookupPrivilegeValue(NULL,SE_SHUTDOWN_NAME,&tkp.Privileges[0].Luid);
@@ -32,29 +42,46 @@ bool PerformanceMonitor::shutDownPC()
     AdjustTokenPrivileges(hToken, false, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
     if (GetLastError() != ERROR_SUCCESS)
     {
-//        qDebug() << "Cannot get the privilages.";
+        qCWarning(SHUT_DOWN_PC()) << SHUT_DOWN_PC().categoryName()
+                                  << "Action #" << GetTokenPrivilage
+                                  << "Result: cannot get the privilages.";
         return false;
+    }else
+    {
+        qCDebug(SHUT_DOWN_PC()) << SHUT_DOWN_PC().categoryName()
+                                << "Action #" << GetTokenPrivilage
+                                << "Result: get the privilages.";
     }
 
     if (!ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE,0))
     {
-//        qDebug() << "Cannot shut down the computer.";
+        qCWarning(SHUT_DOWN_PC()) << SHUT_DOWN_PC().categoryName()
+                                  << "Action #" << ShutDown
+                                  << "Result: cannot shut down the computer.";
         return false;
      }
      else
      {
-//        qDebug() << "Shutting down the computer.";
+        qCDebug(SHUT_DOWN_PC()) << SHUT_DOWN_PC().categoryName()
+                                << "Action #" << ShutDown
+                                << "Result: Shut down the computer successfully.";
         return true;
      }
 }
 
 DWORD PerformanceMonitor::getMemoryLoad()
 {
+    qCDebug(MEMORY_MONITOR()) << MEMORY_MONITOR().categoryName()
+                              << "Action #" << GetMemoryLoad
+                              << "Result: get the memory load successfully.";
     return memStatus.dwMemoryLoad;
 }
 
 DWORDLONG PerformanceMonitor::getAvailPhys()
 {
+    qCDebug(MEMORY_MONITOR()) << MEMORY_MONITOR().categoryName()
+                              << "Action #" << GetAvailPhys
+                              << "Result: get the available physical memory successfully.";
     return memStatus.ullAvailPhys;
 }
 

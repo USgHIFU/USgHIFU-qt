@@ -5,6 +5,8 @@
 #include <QDebug>
 #include "mainwindow.h"
 
+Q_LOGGING_CATEGORY(MAIL,"MAIL")
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
@@ -89,12 +91,16 @@ bool MainWindow::sendMail()
 
     if (!smtp->sendMail(message))
     {
-        qDebug() << "Failed to send mail!" << endl;
+        qCWarning(MAIL()) << MAIL().categoryName()
+                          << "Action #" << SendMail
+                          << "Result: failed to send the mail.";
         statusInfo->setText("Failed to send mail!");
         return false;
     }else
     {
-        qDebug() << "Sending mail successfully.";
+        qCDebug(MAIL()) << MAIL().categoryName()
+                        << "Action #" << SendMail
+                        << "Result: sent the mail successfully.";
         statusInfo->setText("Sending mail successfully.");
     }
 
@@ -113,20 +119,28 @@ bool MainWindow::loginAccount()
 
     if (!smtp->connectToHost())
     {
-        qDebug() << "Failed to connect to host!" << endl;
+        qCWarning(MAIL()) << MAIL().categoryName()
+                          << "Action #" << ConnectToHost
+                          << "Result: failed to connect to host.";
         return false;
     }else
     {
-        qDebug() << "Connection OK.";
+        qCDebug(MAIL()) << MAIL().categoryName()
+                        << "Action #" << ConnectToHost
+                        << "Result: connected to host successfully.";
     }
 
     if (!smtp->login())
     {
-        qDebug() << "Failed to login!" << endl;
+        qCWarning(MAIL()) << MAIL().categoryName()
+                          << "Action #" << LoginAccount
+                          << "Result: failed to login account.";
         return false;
     }else
     {
-        qDebug() << "Login successfully.";
+        qCDebug(MAIL()) << MAIL().categoryName()
+                        << "Action #" << LoginAccount
+                        << "Result: logined account successfully.";
         return true;
     }
 }
@@ -138,13 +152,7 @@ void MainWindow::notificationUpdate()
 
 void MainWindow::shutDownPC()
 {
-    if (monitor->shutDownPC())
-    {
-        qDebug() << "Shutting down computer.";
-    }else
-    {
-        qDebug() << "Cannot shut down computer.";
-    }
+    monitor->shutDownPC();
 }
 
 void MainWindow::memLoadUpdate(DWORD memLoad)
