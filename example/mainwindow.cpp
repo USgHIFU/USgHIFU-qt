@@ -73,24 +73,24 @@ MainWindow::~MainWindow()
 
 void MainWindow::btnStartClick()
 {
-    session->startSession();
+    session->start();
     status->setText("The treatment session is started.");
 }
 
 void MainWindow::btnStopClick()
 {
-    session->stopSession();
+    session->stop();
     status->setText("The treatment session is stopped.");
 }
 
 void MainWindow::btnPauseClick()
 {
-    session->pauseSession();
+    session->pause();
     status->setText("The treatment session is paused.");
 }
 
 void MainWindow::btnResumeClick()
 {
-    session->resumeSession();
+    session->resume();
     status->setText("The treatment session is resumed.");
 }

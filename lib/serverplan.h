@@ -18,6 +18,14 @@ class SERVERPLANSHARED_EXPORT ServerPlan : public QObject
 public:
     ServerPlan(QObject* parent=0);
 
+    enum Action
+    {
+        Start,
+        Stop,
+        Pause,
+        Resume
+    };
+
     enum SessionType
     {
         DutyOn,
@@ -33,10 +41,10 @@ public:
 
     SessionRecorder getRecorder();
 
-    void startSession();
-    void stopSession();
-    void pauseSession();
-    void resumeSession();
+    void start();
+    void stop();
+    void pause();
+    void resume();
 
 signals:
 
@@ -57,8 +65,7 @@ private:
     void powerDutyOff();
     void powerCooling();
 
-    void loadPhase();
-    void computePhase();
+    void changeSpot();
 
     void resetSessionRecorder();
 };
