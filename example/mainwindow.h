@@ -23,9 +23,13 @@ private slots:
     void btnRemoveSpot_Click();
     void btnDispPlane_Click();
     void btnDispSpot_Click();
+    void setPlaneSpots(QHash<float,QList<Plane2DCoordinate> >);
+    void setSpots(QHash<float,QList<Spot3DCoordinate> >);
 
 private:
     ConsolePlan* m_plan;
+    QHash<float,QList<Plane2DCoordinate> > m_planeSpots;
+    QHash<float,QList<Spot3DCoordinate> > m_spots;
 
     QLabel *m_labelAngle, *m_labelX, *m_labelY;
     QLineEdit* m_angle;

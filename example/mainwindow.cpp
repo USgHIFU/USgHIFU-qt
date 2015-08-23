@@ -70,6 +70,10 @@ MainWindow::MainWindow(QWidget *parent)
     connect(m_removeSpot,SIGNAL(clicked(bool)),SLOT(btnRemoveSpot_Click()));
     connect(m_dispPlane,SIGNAL(clicked(bool)),SLOT(btnDispPlane_Click()));
     connect(m_dispSpot,SIGNAL(clicked(bool)),SLOT(btnDispSpot_Click()));
+    connect(m_plan,SIGNAL(updatePlaneSpots(QHash<float,QList<Plane2DCoordinate> >)),
+            SLOT(setPlaneSpots(QHash<float,QList<Plane2DCoordinate> >)));
+    connect(m_plan,SIGNAL(updateSpots(QHash<float,QList<Spot3DCoordinate> >)),
+            SLOT(setSpots(QHash<float,QList<Spot3DCoordinate> >)));
 }
 
 MainWindow::~MainWindow()
@@ -125,14 +129,14 @@ void MainWindow::btnRemove_Click()
 
 void MainWindow::btnDispPlane_Click()
 {
-    QHash<float,QList<Plane2DCoordinate> > plane = m_plan->getPlane();
+    m_plan->getPlaneSpots();
 
     QString str = "";
     QHash<float,QList<Plane2DCoordinate> >::iterator i;
 
-    if (plane.size())
+    if (m_planeSpots.size())
     {
-        for(i = plane.begin();i != plane.end(); i++)
+        for(i = m_planeSpots.begin();i != m_planeSpots.end(); i++)
         {
             for(int j=0;j<i.value().size();j++)
             {
@@ -161,7 +165,7 @@ void MainWindow::btnAddSpot_Click()
     float angle = m_angle->text().toFloat();
     Plane2DCoordinate coordinate = {m_x->text().toFloat(),m_y->text().toFloat()};
 
-    if (m_plan->addSpotInPlane(angle,coordinate))
+    if (m_plan->addSpot(angle,coordinate))
     {
         m_status->setText(QString("The plane of angle: %1 is added.\n X: %2 Y: %3")
                           .arg(angle)
@@ -186,7 +190,7 @@ void MainWindow::btnRemoveSpot_Click()
     float angle = m_angle->text().toFloat();
     Plane2DCoordinate coordinate = {m_x->text().toFloat(),m_y->text().toFloat()};
 
-    if (m_plan->removeSpotInPlane(angle,coordinate))
+    if (m_plan->removeSpot(angle,coordinate))
     {
         m_status->setText(QString("The plane of angle: %1 is removed.\n X: %2 Y: %3")
                           .arg(angle)
@@ -200,16 +204,13 @@ void MainWindow::btnRemoveSpot_Click()
 
 void MainWindow::btnDispSpot_Click()
 {
-    QHash<float,QList<Spot3DCoordinate> > spotCoordinate;
-    spotCoordinate = m_plan->getSpot();
+    m_plan->getSpots();
 
-    qDebug() << "plan: " << m_plan->getPlane().size();
-
-    if (spotCoordinate.size())
+    if (m_spots.size())
     {
         QString str = "";
         QHash<float,QList<Spot3DCoordinate> >::iterator i;
-        for (i = spotCoordinate.begin();i != spotCoordinate.end();i++)
+        for (i = m_spots.begin();i != m_spots.end();i++)
         {
             for (int j = 0;j < i.value().size();j++)
             {
@@ -224,4 +225,14 @@ void MainWindow::btnDispSpot_Click()
     {
         m_status->setText("No spot existed.");
     }
+}
+
+void MainWindow::setPlaneSpots(QHash<float, QList<Plane2DCoordinate> > planeSpots)
+{
+    m_planeSpots = planeSpots;
+}
+
+void MainWindow::setSpots(QHash<float, QList<Spot3DCoordinate> > spots)
+{
+    m_spots = spots;
 }

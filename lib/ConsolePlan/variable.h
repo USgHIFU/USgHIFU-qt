@@ -1,17 +1,19 @@
-#ifndef DEFINE_TYPE
-#define DEFINE_TYPE
+#ifndef VARIABLE
+#define VARIABLE
+
+#define Coordinate float
 
 struct Plane2DCoordinate
 {
-    float x;
-    float y;
+    Coordinate x;
+    Coordinate y;
 };
 
 struct Spot3DCoordinate
 {
-    float x;
-    float y;
-    float z;
+    Coordinate x;
+    Coordinate y;
+    Coordinate z;
 };
 
 struct SpotSonicationParameter
@@ -23,5 +25,5 @@ struct SpotSonicationParameter
     int coolingTime;
 };
 
-#endif // DEFINE_TYPE
+#endif // VARIABLE
 
