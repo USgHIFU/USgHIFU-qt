@@ -25,5 +25,20 @@ struct SpotSonicationParameter
     int coolingTime;
 };
 
+struct SessionRecorder
+{
+    int spotIndex;
+    int periodIndex;
+};
+
+struct SessionParam
+{
+    int spotCount;
+    int periodCount;
+    int dutyOn;
+    int dutyOff;
+    int coolingTime;
+};
+
 #endif // VARIABLE
 

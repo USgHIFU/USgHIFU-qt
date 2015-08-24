@@ -10,7 +10,9 @@
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
+
     m_plan = new ConsolePlan(this);
+    m_server = new Server;
 
     m_labelAngle = new QLabel("angle: ",this);
     m_labelX = new QLabel("x: ",this);
@@ -29,34 +31,68 @@ MainWindow::MainWindow(QWidget *parent)
     editLayout->addWidget(m_labelY);
     editLayout->addWidget(m_y);
 
-    //  action
-    m_add = new QPushButton(this);
-    m_add->setText("add plane");
-    m_addSpot = new QPushButton(this);
-    m_addSpot->setText("add spot");
-    m_remove = new QPushButton(this);
-    m_remove->setText("remove plane");
-    m_removeSpot = new QPushButton(this);
-    m_removeSpot->setText("remove spot");
-    m_dispPlane = new QPushButton(this);
-    m_dispPlane->setText("display plane");
-    m_dispSpot = new QPushButton(this);
-    m_dispSpot->setText("display spot");
+    m_labelVolt = new QLabel("volt: ",this);
+    m_labelTotalTime = new QLabel("total time: ",this);
+    m_labelPeriod = new QLabel("period: ",this);
+    m_labelDutyCycle = new QLabel("duty cycle: ",this);
+    m_labelCoolingTime = new QLabel("cooling time: ",this);
 
-    QHBoxLayout* btnLayout = new QHBoxLayout;
-    btnLayout->addWidget(m_add);
-    btnLayout->addWidget(m_addSpot);
-    btnLayout->addWidget(m_remove);
-    btnLayout->addWidget(m_removeSpot);
-    btnLayout->addWidget(m_dispPlane);
-    btnLayout->addWidget(m_dispSpot);
+    m_volt = new QLineEdit("15",this);
+    m_totalTime = new QLineEdit("12",this);
+    m_period = new QLineEdit("500",this);
+    m_dutyCycle = new QLineEdit("60",this);
+    m_coolingTime = new QLineEdit("300",this);
+
+    QHBoxLayout* editParamLayout = new QHBoxLayout;
+    editParamLayout->addWidget(m_labelVolt);
+    editParamLayout->addWidget(m_volt);
+    editParamLayout->addWidget(m_labelTotalTime);
+    editParamLayout->addWidget(m_totalTime);
+    editParamLayout->addWidget(m_labelPeriod);
+    editParamLayout->addWidget(m_period);
+    editParamLayout->addWidget(m_labelDutyCycle);
+    editParamLayout->addWidget(m_dutyCycle);
+    editParamLayout->addWidget(m_labelCoolingTime);
+    editParamLayout->addWidget(m_coolingTime);
+
+    //  plan action
+    m_add = new QPushButton("add plane",this);
+    m_addSpot = new QPushButton("add spot",this);
+    m_remove = new QPushButton("remove plane",this);
+    m_removeSpot = new QPushButton("remove spot",this);
+    m_dispPlane = new QPushButton("display plane",this);
+    m_dispSpot = new QPushButton("display spot",this);
+
+    QHBoxLayout* btnPlanLayout = new QHBoxLayout;
+    btnPlanLayout->addWidget(m_add);
+    btnPlanLayout->addWidget(m_addSpot);
+    btnPlanLayout->addWidget(m_remove);
+    btnPlanLayout->addWidget(m_removeSpot);
+    btnPlanLayout->addWidget(m_dispPlane);
+    btnPlanLayout->addWidget(m_dispSpot);
+
+    //  server action
+    m_sendPlan = new QPushButton("send plan",this);
+    m_start = new QPushButton("start",this);
+    m_stop = new QPushButton("stop",this);
+    m_pause = new QPushButton("pause",this);
+    m_resume = new QPushButton("reume",this);
+
+    QHBoxLayout* btnServerLayout = new QHBoxLayout;
+    btnServerLayout->addWidget(m_sendPlan);
+    btnServerLayout->addWidget(m_start);
+    btnServerLayout->addWidget(m_stop);
+    btnServerLayout->addWidget(m_pause);
+    btnServerLayout->addWidget(m_resume);
 
     //
     m_status = new QLabel(this);
 
     QVBoxLayout* layout = new QVBoxLayout;
     layout->addLayout(editLayout);
-    layout->addLayout(btnLayout);
+    layout->addLayout(editParamLayout);
+    layout->addLayout(btnPlanLayout);
+    layout->addLayout(btnServerLayout);
     layout->addWidget(m_status);
 
     QWidget* widget = new QWidget;
@@ -235,4 +271,43 @@ void MainWindow::setPlaneSpots(QHash<float, QList<Plane2DCoordinate> > planeSpot
 void MainWindow::setSpots(QHash<float, QList<Spot3DCoordinate> > spots)
 {
     m_spots = spots;
+}
+
+void MainWindow::btnSendPlan_Click()
+{
+    m_plan->getSpots();
+
+    m_plan->setSonicationParam("TotalTime",m_totalTime->text().toInt());
+    m_plan->setSonicationParam("Period",m_period->text().toInt());
+    m_plan->setSonicationParam("DutyCycle",m_dutyCycle->text().toInt());
+    m_plan->setSonicationParam("CoolintTime",m_coolingTime->text().toInt());
+
+    m_server->setCoordinate(m_spots);
+
+    m_server->setSpotOrder(m_plan->getSpotOrder());
+
+    m_server->setParameter(m_plan->getSonicationParam());
+
+    m_server->sendPlanHash();
+
+}
+
+void MainWindow::btnStart_Click()
+{
+
+}
+
+void MainWindow::btnStop_Click()
+{
+
+}
+
+void MainWindow::btnPause_Click()
+{
+
+}
+
+void MainWindow::btnResume_Click()
+{
+
 }

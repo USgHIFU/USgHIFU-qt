@@ -218,6 +218,7 @@ void ConsolePlan::getPlaneSpots()
 void ConsolePlan::getSpots()
 {
     m_spots.clear();
+    QList<int> spotOrder;
 
     if (m_planeSpots.size() == 0)
     {
@@ -228,6 +229,13 @@ void ConsolePlan::getSpots()
         for (i = m_planeSpots.begin();i != m_planeSpots.end();i++)
         {
             m_spots.insert(i.key(),transferCoordinate(i.key(),i.value()));
+
+            spotOrder.clear();
+            for (int j=0;j<i.value().count();j++)
+            {
+                spotOrder << j;
+            }
+            setSpotOrder(i.key(),spotOrder);
         }
     }
 
