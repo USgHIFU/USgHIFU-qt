@@ -22,10 +22,6 @@ private slots:
     void btnPauseClick();
     void btnResumeClick();
 
-    void updateSpots(QHash<float,QList<Spot3DCoordinate> > spots);
-    void updateParams(QHash<QString,int> params);
-    void updateOrder(QHash<float,QList<int> > order);
-
 private:
     ServerPlan* session;
 

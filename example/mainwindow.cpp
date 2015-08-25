@@ -94,17 +94,3 @@ void MainWindow::btnResumeClick()
     session->resume();
     status->setText("The treatment session is resumed.");
 }
-
-void MainWindow::updateSpots(QHash<float, QList<Spot3DCoordinate> > spots)
-{
-    QHash<float,QList<Spot3DCoordinate> >::iterator i;
-    for(i=spots.begin();i<spots.end();i++)
-    {
-        session->setSpotCoordinate(i.value());
-    }
-}
-
-void MainWindow::updateParams(QHash<QString, int> params)
-{
-
-}
