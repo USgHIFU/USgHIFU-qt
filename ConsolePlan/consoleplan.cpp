@@ -258,35 +258,36 @@ QHash<float,QList<int> > ConsolePlan::getSpotOrder()
     return m_spotOrder;
 }
 
-void ConsolePlan::setSonicationParam(QString key, int value)
+void ConsolePlan::setSonicationParam(SpotSonicationParameter param)
 {
-    if (m_sonicationParam.contains(key) && (value != 0))
-    {
-        m_sonicationParam.insert(key,value);
-    }
+    m_sonicationParam.volt = param.volt;
+    m_sonicationParam.totalTime = param.totalTime;
+    m_sonicationParam.period = param.period;
+    m_sonicationParam.dutyCycle = param.dutyCycle;
+    m_sonicationParam.coolingTime = param.coolingTime;
 }
 
-QHash<QString,int> ConsolePlan::getSonicationParam()
+SpotSonicationParameter ConsolePlan::getSonicationParam()
 {
-    QHash<QString,int>::iterator i;
-    for(i = m_sonicationParam.begin();i != m_sonicationParam.end();i++)
+    if (m_sonicationParam.volt && m_sonicationParam.totalTime &&
+        m_sonicationParam.period && m_sonicationParam.dutyCycle &&
+        m_sonicationParam.coolingTime)
     {
-        if (i.value() == 0)
-        {
-            emit error(ErrorNotEnoughSonicationParameter);
-        }
+        return m_sonicationParam;
+    }else
+    {
+        emit error(ErrorNotEnoughSonicationParameter);
+        return m_sonicationParam;
     }
-
-    return m_sonicationParam;
 }
 
 void ConsolePlan::resetSonicationParam()
 {
-    m_sonicationParam.clear();
-    m_sonicationParam.insert("Time",0);
-    m_sonicationParam.insert("Period",0);
-    m_sonicationParam.insert("Duty Cycle",0);
-    m_sonicationParam.insert("Cooling Time",0);
+    m_sonicationParam.volt = 0;
+    m_sonicationParam.totalTime = 0;
+    m_sonicationParam.period = 0;
+    m_sonicationParam.dutyCycle = 0;
+    m_sonicationParam.coolingTime = 0;
 }
 
 QString ConsolePlan::printLastAction(Action i)

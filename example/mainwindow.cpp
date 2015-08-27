@@ -110,6 +110,12 @@ MainWindow::MainWindow(QWidget *parent)
             SLOT(setPlaneSpots(QHash<float,QList<Plane2DCoordinate> >)));
     connect(m_plan,SIGNAL(updateSpots(QHash<float,QList<Spot3DCoordinate> >)),
             SLOT(setSpots(QHash<float,QList<Spot3DCoordinate> >)));
+
+    connect(m_sendPlan,SIGNAL(clicked(bool)),SLOT(btnSendPlan_Click()));
+    connect(m_start,SIGNAL(clicked(bool)),SLOT(btnStart_Click()));
+    connect(m_stop,SIGNAL(clicked(bool)),SLOT(btnStop_Click()));
+    connect(m_pause,SIGNAL(clicked(bool)),SLOT(btnPause_Click()));
+    connect(m_resume,SIGNAL(clicked(bool)),SLOT(btnResume_Click()));
 }
 
 MainWindow::~MainWindow()
@@ -277,10 +283,14 @@ void MainWindow::btnSendPlan_Click()
 {
     m_plan->getSpots();
 
-    m_plan->setSonicationParam("TotalTime",m_totalTime->text().toInt());
-    m_plan->setSonicationParam("Period",m_period->text().toInt());
-    m_plan->setSonicationParam("DutyCycle",m_dutyCycle->text().toInt());
-    m_plan->setSonicationParam("CoolintTime",m_coolingTime->text().toInt());
+    SpotSonicationParameter param;
+    param.volt = m_volt->text().toFloat();
+    param.totalTime = m_totalTime->text().toInt();
+    param.period = m_period->text().toInt();
+    param.dutyCycle = m_dutyCycle->text().toInt();
+    param.coolingTime = m_coolingTime->text().toInt();
+
+    m_plan->setSonicationParam(param);
 
     m_server->setCoordinate(m_spots);
 
@@ -294,20 +304,20 @@ void MainWindow::btnSendPlan_Click()
 
 void MainWindow::btnStart_Click()
 {
-
+    m_server->sendCommandStart();
 }
 
 void MainWindow::btnStop_Click()
 {
-
+    m_server->sendCommandStop();
 }
 
 void MainWindow::btnPause_Click()
 {
-
+    m_server->sendCommandPause();
 }
 
 void MainWindow::btnResume_Click()
 {
-
+    m_server->sendCommandResume();
 }

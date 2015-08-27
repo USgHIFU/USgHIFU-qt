@@ -1,7 +1,7 @@
 #ifndef VARIABLE
 #define VARIABLE
 
-#define Coordinate float
+#include "macro.h"
 
 struct Plane2DCoordinate
 {

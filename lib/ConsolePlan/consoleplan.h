@@ -58,8 +58,8 @@ public:
     void setSpotOrder(float angle, QList<int> order);
     QHash<float,QList<int> > getSpotOrder();
 
-    void setSonicationParam(QString key, int value);
-    QHash<QString,int> getSonicationParam();
+    void setSonicationParam(SpotSonicationParameter param);
+    SpotSonicationParameter getSonicationParam();
 
 signals:
     void error(PlanError);
@@ -70,7 +70,7 @@ private:
     QHash<float,QList<Plane2DCoordinate> > m_planeSpots;
     QHash<float,QList<Spot3DCoordinate> > m_spots;
     QHash<float,QList<int> > m_spotOrder;
-    QHash<QString,int> m_sonicationParam;
+    SpotSonicationParameter m_sonicationParam;
 
     QStringList m_errorString;
     QStringList m_actionString;

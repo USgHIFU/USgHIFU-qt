@@ -9,6 +9,8 @@ QT       -= gui
 TARGET = ConsolePlan
 TEMPLATE = lib
 
+INCLUDEPATH += ../lib/common
+
 DEFINES += CONSOLEPLAN_LIBRARY
 
 SOURCES += consoleplan.cpp
