@@ -3,7 +3,7 @@
 
 
 #include "server_global.h"
-#include "spotstruct.h"
+#include "variable.h"
 
 #include <QObject>
 #include <QtNetwork>
@@ -28,12 +28,13 @@ private:
     qint64 m_totalBytes;    // Total bytes to send for this send progress
     qint64 m_writtenBytes;
 
-    QHash<float, QList<Coordinate3D> > m_spot3D;
+    QHash<float, QList<Spot3DCoordinate> > m_spot3D;
     QHash<float, QList<float> > m_hashX;
     QHash<float, QList<float> > m_hashY;
     QHash<float, QList<float> > m_hashZ;
     QHash<float, QList<int> > m_spotOrder;
-    QHash<QString, float> m_parameter;
+    //QHash<QString, int> m_parameter;
+    SpotSonicationParameter m_parameter;
 
     QDate m_date;
     QTime m_time;
@@ -59,9 +60,9 @@ private slots:
 
 
 public slots:
-    void setCoordinate(QHash<float, QList<Coordinate3D> > spot3D);
+    void setCoordinate(QHash<float, QList<Spot3DCoordinate> > spot3D);
     void setSpotOrder(QHash<float, QList<int> > spotOrder);
-    void setParameter(QHash<QString, float> parameter);
+    void setParameter(SpotSonicationParameter parameter);
 
     void sendPlanHash();
     void sendCommandStart();
