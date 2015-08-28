@@ -1,13 +1,13 @@
 #ifndef CONSOLEPLAN_H
 #define CONSOLEPLAN_H
 
-#include "consoleplan_global.h"
-#include "variable.h"
 #include <QObject>
 #include <QList>
 #include <QHash>
-#include <QStringList>
+//#include <QStringList>
 #include <QLoggingCategory>
+#include "consoleplan_global.h"
+#include "variable.h"
 
 Q_DECLARE_LOGGING_CATEGORY(PlanGenerator)
 

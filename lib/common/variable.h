@@ -3,6 +3,14 @@
 
 #include "macro.h"
 
+enum cmdType
+{
+    START,
+    STOP,
+    PAUSE,
+    RESUME
+};
+
 struct Plane2DCoordinate
 {
     Coordinate x;

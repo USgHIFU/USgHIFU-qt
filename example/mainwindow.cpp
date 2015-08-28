@@ -5,7 +5,7 @@
 #include <QHBoxLayout>
 #include <QVBoxLayout>
 #include <QDebug>
-
+#include "variable.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -148,8 +148,6 @@ void MainWindow::btnAdd_Click()
     {
         m_status->setText("The plane of such angle existed.");
     }
-
-
 }
 
 void MainWindow::btnRemove_Click()
@@ -304,20 +302,20 @@ void MainWindow::btnSendPlan_Click()
 
 void MainWindow::btnStart_Click()
 {
-    m_server->sendCommandStart();
+    m_server->sendCommand(START);
 }
 
 void MainWindow::btnStop_Click()
 {
-    m_server->sendCommandStop();
+    m_server->sendCommand(STOP);
 }
 
 void MainWindow::btnPause_Click()
 {
-    m_server->sendCommandPause();
+    m_server->sendCommand(PAUSE);
 }
 
 void MainWindow::btnResume_Click()
 {
-    m_server->sendCommandResume();
+    m_server->sendCommand(RESUME);
 }
