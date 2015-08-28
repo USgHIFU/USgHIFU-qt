@@ -1,0 +1,12 @@
+#ifndef POWERAMP_GLOBAL_H
+#define POWERAMP_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(POWERAMP_LIBRARY)
+#  define POWERAMPSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define POWERAMPSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // POWERAMP_GLOBAL_H

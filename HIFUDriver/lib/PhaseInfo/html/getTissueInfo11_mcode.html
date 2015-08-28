@@ -1,0 +1,27 @@
+<pre class="code">
+<span class="srcline"><span class="lineno"><a href="6,1" id="srcline1"> 1</a></span><span class="line"><span class="keyword">function</span> <span class="var type1" id="S2T2U3">tissueInfo</span> = getTissueInfo</span></span>
+<span class="srcline"><span class="lineno"><a href="6,2" id="srcline2"> 2</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,3" id="srcline3"> 3</a></span><span class="line"><span class="comment">% 2012/09/19</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,4" id="srcline4"> 4</a></span><span class="line"><span class="comment">% Alpha Version</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,5" id="srcline5"> 5</a></span><span class="line"><span class="comment">% 输入组织参数</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,6" id="srcline6"> 6</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,7" id="srcline7"> 7</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,8" id="srcline8"> 8</a></span><span class="line"><span class="comment">%组织密度，单位：kg/m^3</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,9" id="srcline9"> 9</a></span><span class="line"><span class="mxinfo" id="T1:U2"><span class="var type1" id="S3T1U8">Rou</span> = <span class="mxinfo" id="T1:U4">1138</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,10" id="srcline10">10</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,11" id="srcline11">11</a></span><span class="line"><span class="comment">%超声频率，单位：Hz</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,12" id="srcline12">12</a></span><span class="line"><span class="mxinfo" id="T1:U5"><span class="var type1" id="S4T1U12">Freq</span> = <span class="mxinfo" id="T1:U7">1.360</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,13" id="srcline13">13</a></span><span class="line"><span class="mxinfo" id="T1:U8"><span class="var type1" id="S5T1U16">USFreq</span> = <span class="mxinfo" id="T1:U10"><span class="var type1" id="S4T1U18">Freq</span> * 1e6</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,14" id="srcline14">14</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,15" id="srcline15">15</a></span><span class="line"><span class="comment">%组织声速，单位：m/s</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,16" id="srcline16">16</a></span><span class="line"><span class="mxinfo" id="T1:U12"><span class="var type1" id="S6T1U22">c</span> = <span class="mxinfo" id="T1:U14">1569</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,17" id="srcline17">17</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,18" id="srcline18">18</a></span><span class="line"><span class="comment">%衰减系数，单位：Np/m</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,19" id="srcline19">19</a></span><span class="line"><span class="mxinfo" id="T1:U15"><span class="var type1" id="S7T1U26">Atten</span> = <span class="mxinfo" id="T1:U17">9</span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,20" id="srcline20">20</a></span><span class="line"><span class="mxinfo" id="T1:U18"><span class="var type1" id="S8T1U30">Alpha</span> = <span class="mxinfo" id="T1:U20"><span class="var type1" id="S7T1U32">Atten</span> * <span class="var type1" id="S4T1U33">Freq</span></span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,21" id="srcline21">21</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,22" id="srcline22">22</a></span><span class="line"><span class="comment">%波数</span></span></span>
+<span class="srcline"><span class="lineno"><a href="6,23" id="srcline23">23</a></span><span class="line"><span class="mxinfo" id="T1:U23"><span class="var type1" id="S9T1U36">K</span> = <span class="mxinfo" id="T1:U25">2 * pi * <span class="var type1" id="S5T1U43">USFreq</span> / <span class="var type1" id="S6T1U44">c</span></span></span>;</span></span>
+<span class="srcline"><span class="lineno"><a href="6,24" id="srcline24">24</a></span><span class="line"></span></span>
+<span class="srcline"><span class="lineno"><a href="6,25" id="srcline25">25</a></span><span class="line"><span class="mxinfo" id="T2:U28"><span class="var type1" id="S2T2U47">tissueInfo</span> = <span class="mxinfo" id="T2:U30">struct(<span class="string">'rou'</span>,<span class="var type1" id="S3T1U51">Rou</span>,<span class="string">'usfreq'</span>,<span class="var type1" id="S5T1U53">USFreq</span>,<span class="string">'c'</span>,<span class="var type1" id="S6T1U55">c</span>,<span class="string">'alpha'</span>,<span class="var type1" id="S8T1U57">Alpha</span>,<span class="string">'k'</span>,<span class="var type1" id="S9T1U59">K</span>)</span></span>;</span></span>
+</pre>
