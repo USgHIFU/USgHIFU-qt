@@ -5,11 +5,12 @@
 #-------------------------------------------------
 
 QT       -= gui
+QT       += serialport
 
 TARGET = TreatSession
 TEMPLATE = lib
 
-INCLUDEPATH += ../lib/PA \
+INCLUDEPATH += ../lib/PowerAmp \
                ../lib/DOController \
                ../lib/common \
                ../lib/PhaseInfo

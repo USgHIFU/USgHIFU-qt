@@ -1,0 +1,144 @@
+08:20:54 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+08:20:54 Warning: ==============================================
+
+10:19:23 Warning: QIODevice::write: device not open
+
+10:19:23 Warning: QIODevice::read: device not open
+
+10:19:23 Warning: QIODevice::write: device not open
+
+10:19:24 Warning: QIODevice::read: device not open
+
+10:21:23 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+10:21:23 Warning: ==============================================
+
+10:22:30 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+10:22:30 Warning: TREAT SESSION The spot # 1 , duty # 0  is finished.
+
+10:22:30 Warning: ==========================================
+
+10:23:06 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+10:23:06 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+10:23:06 Warning: ==========================================
+
+10:23:20 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+10:23:20 Warning: ==============================================
+
+10:23:26 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+10:23:26 Warning: TREAT SESSION The spot # 0 , duty # 12  is finished.
+
+10:23:26 Warning: ==========================================
+
+10:40:09 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+10:40:09 Warning: ==============================================
+
+10:41:35 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+10:41:35 Warning: TREAT SESSION The spot # 1 , duty # 0  is finished.
+
+10:41:35 Warning: ==========================================
+
+11:37:10 Warning: QIODevice::write: device not open
+
+11:37:10 Warning: QIODevice::read: device not open
+
+11:37:10 Warning: QIODevice::write: device not open
+
+11:37:11 Warning: QIODevice::read: device not open
+
+11:37:40 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:37:40 Warning: ==============================================
+
+11:37:44 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+11:37:44 Warning: TREAT SESSION The spot # 0 , duty # 7  is finished.
+
+11:37:44 Warning: ==========================================
+
+14:00:18 Warning: QIODevice::write: device not open
+
+14:00:18 Warning: QIODevice::read: device not open
+
+14:00:18 Warning: QIODevice::write: device not open
+
+14:00:19 Warning: QIODevice::read: device not open
+
+14:01:27 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:01:27 Warning: ==============================================
+
+14:01:36 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:01:36 Warning: TREAT SESSION The spot # 0 , duty # 17  is finished.
+
+14:01:36 Warning: ==========================================
+
+14:48:26 Warning: QIODevice::write: device not open
+
+14:48:27 Warning: QIODevice::read: device not open
+
+14:48:27 Warning: QIODevice::write: device not open
+
+14:48:27 Warning: QIODevice::read: device not open
+
+14:48:54 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:48:54 Warning: ==============================================
+
+14:49:22 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:49:22 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:49:22 Warning: ==========================================
+
+14:50:35 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:50:35 Warning: ==============================================
+
+14:51:08 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:51:08 Warning: TREAT SESSION The spot # 1 , duty # 4  is finished.
+
+14:51:08 Warning: ==========================================
+
+15:08:55 Warning: QIODevice::write: device not open
+
+15:08:56 Warning: QIODevice::read: device not open
+
+15:08:56 Warning: QIODevice::write: device not open
+
+15:08:56 Warning: QIODevice::read: device not open
+
+15:09:29 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:09:29 Warning: ==============================================
+
+15:09:35 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:09:35 Warning: TREAT SESSION The spot # 0 , duty # 10  is finished.
+
+15:09:35 Warning: ==========================================
+
+17:34:42 Warning: QIODevice::write: device not open
+
+17:34:42 Warning: QIODevice::read: device not open
+
+17:35:27 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+17:35:27 Warning: ==============================================
+
+17:36:23 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+17:36:23 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+17:36:23 Warning: ==========================================
+

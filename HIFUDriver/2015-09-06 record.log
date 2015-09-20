@@ -1,0 +1,3509 @@
+11:16:04 identifyProbe channel  :  13
+
+11:16:04 Warning: QIODevice::write: device not open
+
+11:16:04 Warning: QIODevice::read: device not open
+
+11:16:05 Power Amplifier Module  : Connection failure
+
+11:16:05 Set the pointer of do to NULL 0x0
+
+11:16:06 IP Address: "192.168.1.101"
+
+11:16:06 Listen OK
+
+11:16:57 AcceptConnection OK
+
+11:16:57 Ready read...
+
+11:16:57 Reading head...
+
+11:16:57 Receiving plan...
+
+11:16:57 m_totalBytes: 558
+
+11:16:57 m_hashX: QHash((3, (-5.93995, -6.92995))(1, (1.0806, 1.62091, 2.16121))(2, (-1.66459, -2.08073, -2.49688)))
+
+11:16:57 m_hashY: QHash((3, (0.98784, 1.12896))(1, (2.52441, 3.36588, 4.20736))(2, (4.54649, 5.45578, 6.36508)))
+
+11:16:57 m_hashZ: QHash((3, (-2.47606, -2.90049))(1, (1.80251, 2.4934, 3.18428))(2, (1.44095, 1.68753, 1.9341)))
+
+11:16:57 m_spotOrder: QHash((3, (0, 1))(1, (0, 1, 2))(2, (0, 1, 2)))
+
+11:16:57 Volt: 15 Total time: 6 Period: 500 Duty cycle: 60 Cooling time: 5
+
+11:16:57 sendInfo: "From: ServerName, To: ClientName, Time: 1, 周日 九月 6 2015, 11:16:57"
+
+11:16:57 Receive plan finished.
+
+11:16:57 Write back...
+
+11:16:57 "From: ServerName, To: ClientName, Time: 1, 周日 九月 6 2015, 11:16:57"
+
+11:16:57 Send back finished.
+
+11:16:57 -------------------
+
+11:16:57 3 : First spot: ( -5.93995 , 0.98784 , -2.47606 )
+
+11:16:57 Size: 2
+
+11:16:57 1 : First spot: ( 1.0806 , 2.52441 , 1.80251 )
+
+11:16:57 Size: 3
+
+11:16:57 2 : First spot: ( -1.66459 , 4.54649 , 1.44095 )
+
+11:16:57 Size: 3
+
+11:16:57 CLIENT : RECEIVE TREATMENT PLAN SUCCEEDED.
+
+11:16:57 *******************
+
+11:16:58 AcceptConnection OK
+
+11:16:58 Ready read...
+
+11:16:58 Reading head...
+
+11:16:58 Receiving command...
+
+11:16:58 1
+
+11:16:58 3 planes left.
+
+11:16:58 2  spots left in the current plane.
+
+11:16:58 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:16:58 Warning: ==============================================
+
+11:16:58 Start
+
+11:16:58 CLIENT : RECEIVED COMMAND START.
+
+11:16:58 Receive command finished.
+
+11:16:58 
+*******************
+
+11:16:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:16:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:16:58 TREAT SESSION The # 1  duty is finished.
+
+11:16:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:16:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:16:59 TREAT SESSION The # 2  duty is finished.
+
+11:16:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:16:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:16:59 TREAT SESSION The # 3  duty is finished.
+
+11:17:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:00 TREAT SESSION The # 4  duty is finished.
+
+11:17:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:00 TREAT SESSION The # 5  duty is finished.
+
+11:17:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:01 TREAT SESSION The # 6  duty is finished.
+
+11:17:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:01 TREAT SESSION The # 7  duty is finished.
+
+11:17:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:02 TREAT SESSION The # 8  duty is finished.
+
+11:17:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:02 TREAT SESSION The # 9  duty is finished.
+
+11:17:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:03 TREAT SESSION The # 10  duty is finished.
+
+11:17:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:03 TREAT SESSION The # 11  duty is finished.
+
+11:17:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:04 TREAT SESSION The # 12  duty is finished.
+
+11:17:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:04 TREAT SESSION The # 13  duty is finished.
+
+11:17:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:05 TREAT SESSION The # 14  duty is finished.
+
+11:17:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:06 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:06 TREAT SESSION The # 15  duty is finished.
+
+11:17:06 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:06 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:06 TREAT SESSION The # 16  duty is finished.
+
+11:17:06 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:07 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:07 TREAT SESSION The # 17  duty is finished.
+
+11:17:07 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:07 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:07 TREAT SESSION The # 18  duty is finished.
+
+11:17:07 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:08 TREAT SESSION The # 19  duty is finished.
+
+11:17:08 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:08 TREAT SESSION The # 20  duty is finished.
+
+11:17:08 TREAT SESSION The # 1  spot is finished.
+
+11:17:08 3 planes left.
+
+11:17:08 1  spots left in the current plane.
+
+11:17:13 TREAT SESSION status: finish the stage of cooling.
+
+11:17:13 ==============================================
+
+11:17:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:14 TREAT SESSION The # 1  duty is finished.
+
+11:17:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:14 TREAT SESSION The # 2  duty is finished.
+
+11:17:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:15 TREAT SESSION The # 3  duty is finished.
+
+11:17:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:15 TREAT SESSION The # 4  duty is finished.
+
+11:17:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:16 TREAT SESSION The # 5  duty is finished.
+
+11:17:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:16 TREAT SESSION The # 6  duty is finished.
+
+11:17:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:17 TREAT SESSION The # 7  duty is finished.
+
+11:17:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:17 TREAT SESSION The # 8  duty is finished.
+
+11:17:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:18 TREAT SESSION The # 9  duty is finished.
+
+11:17:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:18 TREAT SESSION The # 10  duty is finished.
+
+11:17:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:19 TREAT SESSION The # 11  duty is finished.
+
+11:17:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:19 TREAT SESSION The # 12  duty is finished.
+
+11:17:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:20 TREAT SESSION The # 13  duty is finished.
+
+11:17:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:20 TREAT SESSION The # 14  duty is finished.
+
+11:17:21 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:21 TREAT SESSION The # 15  duty is finished.
+
+11:17:21 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:21 TREAT SESSION The # 16  duty is finished.
+
+11:17:22 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:22 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:22 TREAT SESSION The # 17  duty is finished.
+
+11:17:22 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:22 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:22 TREAT SESSION The # 18  duty is finished.
+
+11:17:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:23 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:23 TREAT SESSION The # 19  duty is finished.
+
+11:17:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:23 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:23 TREAT SESSION The # 20  duty is finished.
+
+11:17:23 TREAT SESSION The # 2  spot is finished.
+
+11:17:23 2 planes left.
+
+11:17:23 0  spots left in the current plane.
+
+11:17:28 TREAT SESSION status: finish the stage of cooling.
+
+11:17:28 ==============================================
+
+11:17:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:29 TREAT SESSION The # 1  duty is finished.
+
+11:17:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:29 TREAT SESSION The # 2  duty is finished.
+
+11:17:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:30 TREAT SESSION The # 3  duty is finished.
+
+11:17:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:30 TREAT SESSION The # 4  duty is finished.
+
+11:17:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:31 TREAT SESSION The # 5  duty is finished.
+
+11:17:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:31 TREAT SESSION The # 6  duty is finished.
+
+11:17:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:32 TREAT SESSION The # 7  duty is finished.
+
+11:17:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:33 TREAT SESSION The # 8  duty is finished.
+
+11:17:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:33 TREAT SESSION The # 9  duty is finished.
+
+11:17:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:34 TREAT SESSION The # 10  duty is finished.
+
+11:17:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:34 TREAT SESSION The # 11  duty is finished.
+
+11:17:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:35 TREAT SESSION The # 12  duty is finished.
+
+11:17:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:35 TREAT SESSION The # 13  duty is finished.
+
+11:17:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:36 TREAT SESSION The # 14  duty is finished.
+
+11:17:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:36 TREAT SESSION The # 15  duty is finished.
+
+11:17:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:37 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:37 TREAT SESSION The # 16  duty is finished.
+
+11:17:37 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:37 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:37 TREAT SESSION The # 17  duty is finished.
+
+11:17:37 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:38 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:38 TREAT SESSION The # 18  duty is finished.
+
+11:17:38 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:38 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:38 TREAT SESSION The # 19  duty is finished.
+
+11:17:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:39 TREAT SESSION The # 20  duty is finished.
+
+11:17:39 TREAT SESSION The # 1  spot is finished.
+
+11:17:39 2 planes left.
+
+11:17:39 2  spots left in the current plane.
+
+11:17:44 TREAT SESSION status: finish the stage of cooling.
+
+11:17:44 ==============================================
+
+11:17:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:44 TREAT SESSION The # 1  duty is finished.
+
+11:17:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:45 TREAT SESSION The # 2  duty is finished.
+
+11:17:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:45 TREAT SESSION The # 3  duty is finished.
+
+11:17:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:46 TREAT SESSION The # 4  duty is finished.
+
+11:17:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:46 TREAT SESSION The # 5  duty is finished.
+
+11:17:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:47 TREAT SESSION The # 6  duty is finished.
+
+11:17:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:47 TREAT SESSION The # 7  duty is finished.
+
+11:17:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:48 TREAT SESSION The # 8  duty is finished.
+
+11:17:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:48 TREAT SESSION The # 9  duty is finished.
+
+11:17:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:49 TREAT SESSION The # 10  duty is finished.
+
+11:17:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:49 TREAT SESSION The # 11  duty is finished.
+
+11:17:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:50 TREAT SESSION The # 12  duty is finished.
+
+11:17:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:50 TREAT SESSION The # 13  duty is finished.
+
+11:17:51 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:51 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:51 TREAT SESSION The # 14  duty is finished.
+
+11:17:51 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:51 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:51 TREAT SESSION The # 15  duty is finished.
+
+11:17:52 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:52 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:52 TREAT SESSION The # 16  duty is finished.
+
+11:17:52 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:52 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:52 TREAT SESSION The # 17  duty is finished.
+
+11:17:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:53 TREAT SESSION The # 18  duty is finished.
+
+11:17:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:53 TREAT SESSION The # 19  duty is finished.
+
+11:17:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:17:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:17:54 TREAT SESSION The # 20  duty is finished.
+
+11:17:54 TREAT SESSION The # 2  spot is finished.
+
+11:17:54 2 planes left.
+
+11:17:54 1  spots left in the current plane.
+
+11:17:59 TREAT SESSION status: finish the stage of cooling.
+
+11:17:59 ==============================================
+
+11:17:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:00 TREAT SESSION The # 1  duty is finished.
+
+11:18:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:00 TREAT SESSION The # 2  duty is finished.
+
+11:18:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:01 TREAT SESSION The # 3  duty is finished.
+
+11:18:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:01 TREAT SESSION The # 4  duty is finished.
+
+11:18:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:02 TREAT SESSION The # 5  duty is finished.
+
+11:18:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:02 TREAT SESSION The # 6  duty is finished.
+
+11:18:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:03 TREAT SESSION The # 7  duty is finished.
+
+11:18:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:03 TREAT SESSION The # 8  duty is finished.
+
+11:18:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:04 TREAT SESSION The # 9  duty is finished.
+
+11:18:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:04 TREAT SESSION The # 10  duty is finished.
+
+11:18:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:05 TREAT SESSION The # 11  duty is finished.
+
+11:18:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:05 TREAT SESSION The # 12  duty is finished.
+
+11:18:06 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:06 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:06 TREAT SESSION The # 13  duty is finished.
+
+11:18:06 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:06 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:06 TREAT SESSION The # 14  duty is finished.
+
+11:18:07 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:07 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:07 TREAT SESSION The # 15  duty is finished.
+
+11:18:07 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:07 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:07 TREAT SESSION The # 16  duty is finished.
+
+11:18:08 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:08 TREAT SESSION The # 17  duty is finished.
+
+11:18:08 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:08 TREAT SESSION The # 18  duty is finished.
+
+11:18:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:09 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:09 TREAT SESSION The # 19  duty is finished.
+
+11:18:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:09 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:09 TREAT SESSION The # 20  duty is finished.
+
+11:18:09 TREAT SESSION The # 3  spot is finished.
+
+11:18:09 1 planes left.
+
+11:18:09 0  spots left in the current plane.
+
+11:18:14 TREAT SESSION status: finish the stage of cooling.
+
+11:18:14 ==============================================
+
+11:18:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:15 TREAT SESSION The # 1  duty is finished.
+
+11:18:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:15 TREAT SESSION The # 2  duty is finished.
+
+11:18:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:16 TREAT SESSION The # 3  duty is finished.
+
+11:18:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:16 TREAT SESSION The # 4  duty is finished.
+
+11:18:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:17 TREAT SESSION The # 5  duty is finished.
+
+11:18:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:17 TREAT SESSION The # 6  duty is finished.
+
+11:18:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:18 TREAT SESSION The # 7  duty is finished.
+
+11:18:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:18 TREAT SESSION The # 8  duty is finished.
+
+11:18:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:19 TREAT SESSION The # 9  duty is finished.
+
+11:18:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:19 TREAT SESSION The # 10  duty is finished.
+
+11:18:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:20 TREAT SESSION The # 11  duty is finished.
+
+11:18:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:21 TREAT SESSION The # 12  duty is finished.
+
+11:18:21 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:21 TREAT SESSION The # 13  duty is finished.
+
+11:18:21 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:22 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:22 TREAT SESSION The # 14  duty is finished.
+
+11:18:22 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:22 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:22 TREAT SESSION The # 15  duty is finished.
+
+11:18:22 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:23 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:23 TREAT SESSION The # 16  duty is finished.
+
+11:18:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:23 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:23 TREAT SESSION The # 17  duty is finished.
+
+11:18:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:24 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:24 TREAT SESSION The # 18  duty is finished.
+
+11:18:24 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:24 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:24 TREAT SESSION The # 19  duty is finished.
+
+11:18:24 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:25 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:25 TREAT SESSION The # 20  duty is finished.
+
+11:18:25 TREAT SESSION The # 1  spot is finished.
+
+11:18:25 1 planes left.
+
+11:18:25 2  spots left in the current plane.
+
+11:18:30 TREAT SESSION status: finish the stage of cooling.
+
+11:18:30 ==============================================
+
+11:18:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:30 TREAT SESSION The # 1  duty is finished.
+
+11:18:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:31 TREAT SESSION The # 2  duty is finished.
+
+11:18:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:31 TREAT SESSION The # 3  duty is finished.
+
+11:18:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:32 TREAT SESSION The # 4  duty is finished.
+
+11:18:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:32 TREAT SESSION The # 5  duty is finished.
+
+11:18:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:33 TREAT SESSION The # 6  duty is finished.
+
+11:18:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:33 TREAT SESSION The # 7  duty is finished.
+
+11:18:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:34 TREAT SESSION The # 8  duty is finished.
+
+11:18:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:34 TREAT SESSION The # 9  duty is finished.
+
+11:18:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:35 TREAT SESSION The # 10  duty is finished.
+
+11:18:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:35 TREAT SESSION The # 11  duty is finished.
+
+11:18:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:36 TREAT SESSION The # 12  duty is finished.
+
+11:18:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:36 TREAT SESSION The # 13  duty is finished.
+
+11:18:37 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:37 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:37 TREAT SESSION The # 14  duty is finished.
+
+11:18:37 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:37 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:37 TREAT SESSION The # 15  duty is finished.
+
+11:18:38 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:38 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:38 TREAT SESSION The # 16  duty is finished.
+
+11:18:38 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:38 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:38 TREAT SESSION The # 17  duty is finished.
+
+11:18:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:39 TREAT SESSION The # 18  duty is finished.
+
+11:18:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:39 TREAT SESSION The # 19  duty is finished.
+
+11:18:40 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:40 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:40 TREAT SESSION The # 20  duty is finished.
+
+11:18:40 TREAT SESSION The # 2  spot is finished.
+
+11:18:40 1 planes left.
+
+11:18:40 1  spots left in the current plane.
+
+11:18:45 TREAT SESSION status: finish the stage of cooling.
+
+11:18:45 ==============================================
+
+11:18:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:45 TREAT SESSION The # 1  duty is finished.
+
+11:18:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:46 TREAT SESSION The # 2  duty is finished.
+
+11:18:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:47 TREAT SESSION The # 3  duty is finished.
+
+11:18:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:47 TREAT SESSION The # 4  duty is finished.
+
+11:18:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:48 TREAT SESSION The # 5  duty is finished.
+
+11:18:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:48 TREAT SESSION The # 6  duty is finished.
+
+11:18:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:49 TREAT SESSION The # 7  duty is finished.
+
+11:18:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:49 TREAT SESSION The # 8  duty is finished.
+
+11:18:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:50 TREAT SESSION The # 9  duty is finished.
+
+11:18:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:50 TREAT SESSION The # 10  duty is finished.
+
+11:18:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:51 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:51 TREAT SESSION The # 11  duty is finished.
+
+11:18:51 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:51 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:51 TREAT SESSION The # 12  duty is finished.
+
+11:18:51 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:52 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:52 TREAT SESSION The # 13  duty is finished.
+
+11:18:52 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:52 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:52 TREAT SESSION The # 14  duty is finished.
+
+11:18:52 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:53 TREAT SESSION The # 15  duty is finished.
+
+11:18:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:53 TREAT SESSION The # 16  duty is finished.
+
+11:18:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:54 TREAT SESSION The # 17  duty is finished.
+
+11:18:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:54 TREAT SESSION The # 18  duty is finished.
+
+11:18:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:55 TREAT SESSION The # 19  duty is finished.
+
+11:18:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:18:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:18:55 TREAT SESSION The # 20  duty is finished.
+
+11:18:55 TREAT SESSION The # 3  spot is finished.
+
+11:18:55 0 planes left.
+
+11:19:00 TREAT SESSION status: finish the stage of cooling.
+
+11:19:00 ==============================================
+
+11:19:00 TREAT SESSION All the spots have been sonicated.
+
+11:19:00 ==========================================
+
+11:19:35 AcceptConnection OK
+
+11:19:35 Ready read...
+
+11:19:35 Reading head...
+
+11:19:35 Receiving plan...
+
+11:19:35 m_totalBytes: 718
+
+11:19:35 m_hashX: QHash((3, (-5.93995, -6.92995))(44, (4.99922, 5.99906, 7.99875, 8.99859))(1, (1.0806, 1.62091, 2.16121))(2, (-1.66459, -2.08073, -2.49688)))
+
+11:19:35 m_hashY: QHash((3, (0.98784, 1.12896))(44, (0.106212, 0.123913, 0.159317, 0.177019))(1, (2.52441, 3.36588, 4.20736))(2, (4.54649, 5.45578, 6.36508)))
+
+11:19:35 m_hashZ: QHash((3, (-2.47606, -2.90049))(44, (2.55271, 3.06149, 4.07903, 4.5878))(1, (1.80251, 2.4934, 3.18428))(2, (1.44095, 1.68753, 1.9341)))
+
+11:19:35 m_spotOrder: QHash((3, (0, 1))(44, (0, 1, 2, 3))(1, (0, 1, 2))(2, (0, 1, 2)))
+
+11:19:35 Volt: 15 Total time: 6 Period: 500 Duty cycle: 60 Cooling time: 5
+
+11:19:35 sendInfo: "From: ServerName, To: ClientName, Time: 2, 周日 九月 6 2015, 11:19:35"
+
+11:19:35 Receive plan finished.
+
+11:19:35 Write back...
+
+11:19:35 "From: ServerName, To: ClientName, Time: 2, 周日 九月 6 2015, 11:19:35"
+
+11:19:35 Send back finished.
+
+11:19:35 -------------------
+
+11:19:35 3 : First spot: ( -5.93995 , 0.98784 , -2.47606 )
+
+11:19:35 Size: 2
+
+11:19:35 44 : First spot: ( 4.99922 , 0.106212 , 2.55271 )
+
+11:19:35 Size: 4
+
+11:19:35 1 : First spot: ( 1.0806 , 2.52441 , 1.80251 )
+
+11:19:35 Size: 3
+
+11:19:35 2 : First spot: ( -1.66459 , 4.54649 , 1.44095 )
+
+11:19:35 Size: 3
+
+11:19:35 CLIENT : RECEIVE TREATMENT PLAN SUCCEEDED.
+
+11:19:35 *******************
+
+11:19:37 AcceptConnection OK
+
+11:19:37 Ready read...
+
+11:19:37 Reading head...
+
+11:19:37 Receiving command...
+
+11:19:37 1
+
+11:19:37 4 planes left.
+
+11:19:37 2  spots left in the current plane.
+
+11:19:37 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:19:37 Warning: ==============================================
+
+11:19:37 Start
+
+11:19:37 CLIENT : RECEIVED COMMAND START.
+
+11:19:37 Receive command finished.
+
+11:19:37 
+*******************
+
+11:19:38 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:38 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:38 TREAT SESSION The # 1  duty is finished.
+
+11:19:38 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:38 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:38 TREAT SESSION The # 2  duty is finished.
+
+11:19:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:39 TREAT SESSION The # 3  duty is finished.
+
+11:19:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:39 TREAT SESSION The # 4  duty is finished.
+
+11:19:40 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:40 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:40 TREAT SESSION The # 5  duty is finished.
+
+11:19:40 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:40 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:40 TREAT SESSION The # 6  duty is finished.
+
+11:19:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:41 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:41 TREAT SESSION The # 7  duty is finished.
+
+11:19:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:41 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:41 TREAT SESSION The # 8  duty is finished.
+
+11:19:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:42 TREAT SESSION The # 9  duty is finished.
+
+11:19:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:42 TREAT SESSION The # 10  duty is finished.
+
+11:19:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:43 TREAT SESSION The # 11  duty is finished.
+
+11:19:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:43 TREAT SESSION The # 12  duty is finished.
+
+11:19:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:44 TREAT SESSION The # 13  duty is finished.
+
+11:19:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:44 TREAT SESSION The # 14  duty is finished.
+
+11:19:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:45 TREAT SESSION The # 15  duty is finished.
+
+11:19:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:45 TREAT SESSION The # 16  duty is finished.
+
+11:19:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:46 TREAT SESSION The # 17  duty is finished.
+
+11:19:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:46 TREAT SESSION The # 18  duty is finished.
+
+11:19:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:47 TREAT SESSION The # 19  duty is finished.
+
+11:19:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:48 TREAT SESSION The # 20  duty is finished.
+
+11:19:48 TREAT SESSION The # 1  spot is finished.
+
+11:19:48 4 planes left.
+
+11:19:48 1  spots left in the current plane.
+
+11:19:53 TREAT SESSION status: finish the stage of cooling.
+
+11:19:53 ==============================================
+
+11:19:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:53 TREAT SESSION The # 1  duty is finished.
+
+11:19:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:54 TREAT SESSION The # 2  duty is finished.
+
+11:19:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:54 TREAT SESSION The # 3  duty is finished.
+
+11:19:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:55 TREAT SESSION The # 4  duty is finished.
+
+11:19:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:55 TREAT SESSION The # 5  duty is finished.
+
+11:19:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:56 TREAT SESSION The # 6  duty is finished.
+
+11:19:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:56 TREAT SESSION The # 7  duty is finished.
+
+11:19:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:57 TREAT SESSION The # 8  duty is finished.
+
+11:19:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:57 TREAT SESSION The # 9  duty is finished.
+
+11:19:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:58 TREAT SESSION The # 10  duty is finished.
+
+11:19:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:58 TREAT SESSION The # 11  duty is finished.
+
+11:19:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:59 TREAT SESSION The # 12  duty is finished.
+
+11:19:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:19:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:19:59 TREAT SESSION The # 13  duty is finished.
+
+11:20:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:00 TREAT SESSION The # 14  duty is finished.
+
+11:20:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:00 TREAT SESSION The # 15  duty is finished.
+
+11:20:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:01 TREAT SESSION The # 16  duty is finished.
+
+11:20:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:01 TREAT SESSION The # 17  duty is finished.
+
+11:20:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:02 TREAT SESSION The # 18  duty is finished.
+
+11:20:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:02 TREAT SESSION The # 19  duty is finished.
+
+11:20:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:03 TREAT SESSION The # 20  duty is finished.
+
+11:20:03 TREAT SESSION The # 2  spot is finished.
+
+11:20:03 3 planes left.
+
+11:20:03 0  spots left in the current plane.
+
+11:20:08 TREAT SESSION status: finish the stage of cooling.
+
+11:20:08 ==============================================
+
+11:20:08 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:08 TREAT SESSION The # 1  duty is finished.
+
+11:20:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:09 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:09 TREAT SESSION The # 2  duty is finished.
+
+11:20:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:09 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:09 TREAT SESSION The # 3  duty is finished.
+
+11:20:10 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:10 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:10 TREAT SESSION The # 4  duty is finished.
+
+11:20:10 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:10 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:10 TREAT SESSION The # 5  duty is finished.
+
+11:20:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:11 TREAT SESSION The # 6  duty is finished.
+
+11:20:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:11 TREAT SESSION The # 7  duty is finished.
+
+11:20:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:12 TREAT SESSION The # 8  duty is finished.
+
+11:20:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:12 TREAT SESSION The # 9  duty is finished.
+
+11:20:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:13 TREAT SESSION The # 10  duty is finished.
+
+11:20:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:13 TREAT SESSION The # 11  duty is finished.
+
+11:20:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:14 TREAT SESSION The # 12  duty is finished.
+
+11:20:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:15 TREAT SESSION The # 13  duty is finished.
+
+11:20:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:15 TREAT SESSION The # 14  duty is finished.
+
+11:20:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:16 TREAT SESSION The # 15  duty is finished.
+
+11:20:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:16 TREAT SESSION The # 16  duty is finished.
+
+11:20:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:17 TREAT SESSION The # 17  duty is finished.
+
+11:20:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:17 TREAT SESSION The # 18  duty is finished.
+
+11:20:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:18 TREAT SESSION The # 19  duty is finished.
+
+11:20:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:18 TREAT SESSION The # 20  duty is finished.
+
+11:20:18 TREAT SESSION The # 1  spot is finished.
+
+11:20:18 3 planes left.
+
+11:20:18 3  spots left in the current plane.
+
+11:20:23 TREAT SESSION status: finish the stage of cooling.
+
+11:20:23 ==============================================
+
+11:20:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:24 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:24 TREAT SESSION The # 1  duty is finished.
+
+11:20:24 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:24 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:24 TREAT SESSION The # 2  duty is finished.
+
+11:20:24 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:25 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:25 TREAT SESSION The # 3  duty is finished.
+
+11:20:25 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:25 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:25 TREAT SESSION The # 4  duty is finished.
+
+11:20:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:26 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:26 TREAT SESSION The # 5  duty is finished.
+
+11:20:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:26 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:26 TREAT SESSION The # 6  duty is finished.
+
+11:20:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:27 TREAT SESSION The # 7  duty is finished.
+
+11:20:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:27 TREAT SESSION The # 8  duty is finished.
+
+11:20:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:28 TREAT SESSION The # 9  duty is finished.
+
+11:20:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:28 TREAT SESSION The # 10  duty is finished.
+
+11:20:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:29 TREAT SESSION The # 11  duty is finished.
+
+11:20:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:29 TREAT SESSION The # 12  duty is finished.
+
+11:20:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:30 TREAT SESSION The # 13  duty is finished.
+
+11:20:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:30 TREAT SESSION The # 14  duty is finished.
+
+11:20:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:31 TREAT SESSION The # 15  duty is finished.
+
+11:20:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:31 TREAT SESSION The # 16  duty is finished.
+
+11:20:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:32 TREAT SESSION The # 17  duty is finished.
+
+11:20:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:32 TREAT SESSION The # 18  duty is finished.
+
+11:20:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:33 TREAT SESSION The # 19  duty is finished.
+
+11:20:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:33 TREAT SESSION The # 20  duty is finished.
+
+11:20:33 TREAT SESSION The # 2  spot is finished.
+
+11:20:33 3 planes left.
+
+11:20:33 2  spots left in the current plane.
+
+11:20:38 TREAT SESSION status: finish the stage of cooling.
+
+11:20:38 ==============================================
+
+11:20:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:39 TREAT SESSION The # 1  duty is finished.
+
+11:20:39 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:39 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:39 TREAT SESSION The # 2  duty is finished.
+
+11:20:40 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:40 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:40 TREAT SESSION The # 3  duty is finished.
+
+11:20:40 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:40 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:40 TREAT SESSION The # 4  duty is finished.
+
+11:20:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:41 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:41 TREAT SESSION The # 5  duty is finished.
+
+11:20:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:42 TREAT SESSION The # 6  duty is finished.
+
+11:20:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:42 TREAT SESSION The # 7  duty is finished.
+
+11:20:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:43 TREAT SESSION The # 8  duty is finished.
+
+11:20:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:43 TREAT SESSION The # 9  duty is finished.
+
+11:20:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:44 TREAT SESSION The # 10  duty is finished.
+
+11:20:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:44 TREAT SESSION The # 11  duty is finished.
+
+11:20:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:45 TREAT SESSION The # 12  duty is finished.
+
+11:20:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:45 TREAT SESSION The # 13  duty is finished.
+
+11:20:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:46 TREAT SESSION The # 14  duty is finished.
+
+11:20:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:46 TREAT SESSION The # 15  duty is finished.
+
+11:20:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:47 TREAT SESSION The # 16  duty is finished.
+
+11:20:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:47 TREAT SESSION The # 17  duty is finished.
+
+11:20:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:48 TREAT SESSION The # 18  duty is finished.
+
+11:20:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:48 TREAT SESSION The # 19  duty is finished.
+
+11:20:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:49 TREAT SESSION The # 20  duty is finished.
+
+11:20:49 TREAT SESSION The # 3  spot is finished.
+
+11:20:49 3 planes left.
+
+11:20:49 1  spots left in the current plane.
+
+11:20:54 TREAT SESSION status: finish the stage of cooling.
+
+11:20:54 ==============================================
+
+11:20:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:54 TREAT SESSION The # 1  duty is finished.
+
+11:20:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:55 TREAT SESSION The # 2  duty is finished.
+
+11:20:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:55 TREAT SESSION The # 3  duty is finished.
+
+11:20:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:56 TREAT SESSION The # 4  duty is finished.
+
+11:20:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:56 TREAT SESSION The # 5  duty is finished.
+
+11:20:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:57 TREAT SESSION The # 6  duty is finished.
+
+11:20:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:57 TREAT SESSION The # 7  duty is finished.
+
+11:20:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:58 TREAT SESSION The # 8  duty is finished.
+
+11:20:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:58 TREAT SESSION The # 9  duty is finished.
+
+11:20:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:59 TREAT SESSION The # 10  duty is finished.
+
+11:20:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:20:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:20:59 TREAT SESSION The # 11  duty is finished.
+
+11:21:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:00 TREAT SESSION The # 12  duty is finished.
+
+11:21:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:00 TREAT SESSION The # 13  duty is finished.
+
+11:21:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:01 TREAT SESSION The # 14  duty is finished.
+
+11:21:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:01 TREAT SESSION The # 15  duty is finished.
+
+11:21:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:02 TREAT SESSION The # 16  duty is finished.
+
+11:21:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:02 TREAT SESSION The # 17  duty is finished.
+
+11:21:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:03 TREAT SESSION The # 18  duty is finished.
+
+11:21:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:04 TREAT SESSION The # 19  duty is finished.
+
+11:21:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:04 TREAT SESSION The # 20  duty is finished.
+
+11:21:04 TREAT SESSION The # 4  spot is finished.
+
+11:21:04 2 planes left.
+
+11:21:04 0  spots left in the current plane.
+
+11:21:09 TREAT SESSION status: finish the stage of cooling.
+
+11:21:09 ==============================================
+
+11:21:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:10 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:10 TREAT SESSION The # 1  duty is finished.
+
+11:21:10 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:10 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:10 TREAT SESSION The # 2  duty is finished.
+
+11:21:10 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:11 TREAT SESSION The # 3  duty is finished.
+
+11:21:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:11 TREAT SESSION The # 4  duty is finished.
+
+11:21:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:12 TREAT SESSION The # 5  duty is finished.
+
+11:21:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:12 TREAT SESSION The # 6  duty is finished.
+
+11:21:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:13 TREAT SESSION The # 7  duty is finished.
+
+11:21:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:13 TREAT SESSION The # 8  duty is finished.
+
+11:21:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:14 TREAT SESSION The # 9  duty is finished.
+
+11:21:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:14 TREAT SESSION The # 10  duty is finished.
+
+11:21:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:15 TREAT SESSION The # 11  duty is finished.
+
+11:21:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:15 TREAT SESSION The # 12  duty is finished.
+
+11:21:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:16 TREAT SESSION The # 13  duty is finished.
+
+11:21:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:16 TREAT SESSION The # 14  duty is finished.
+
+11:21:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:17 TREAT SESSION The # 15  duty is finished.
+
+11:21:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:17 TREAT SESSION The # 16  duty is finished.
+
+11:21:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:18 TREAT SESSION The # 17  duty is finished.
+
+11:21:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:18 TREAT SESSION The # 18  duty is finished.
+
+11:21:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:19 TREAT SESSION The # 19  duty is finished.
+
+11:21:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:19 TREAT SESSION The # 20  duty is finished.
+
+11:21:19 TREAT SESSION The # 1  spot is finished.
+
+11:21:19 2 planes left.
+
+11:21:19 2  spots left in the current plane.
+
+11:21:24 TREAT SESSION status: finish the stage of cooling.
+
+11:21:24 ==============================================
+
+11:21:25 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:25 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:25 TREAT SESSION The # 1  duty is finished.
+
+11:21:25 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:25 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:25 TREAT SESSION The # 2  duty is finished.
+
+11:21:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:26 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:26 TREAT SESSION The # 3  duty is finished.
+
+11:21:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:26 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:26 TREAT SESSION The # 4  duty is finished.
+
+11:21:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:27 TREAT SESSION The # 5  duty is finished.
+
+11:21:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:27 TREAT SESSION The # 6  duty is finished.
+
+11:21:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:28 TREAT SESSION The # 7  duty is finished.
+
+11:21:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:28 TREAT SESSION The # 8  duty is finished.
+
+11:21:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:29 TREAT SESSION The # 9  duty is finished.
+
+11:21:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:30 TREAT SESSION The # 10  duty is finished.
+
+11:21:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:30 TREAT SESSION The # 11  duty is finished.
+
+11:21:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:31 TREAT SESSION The # 12  duty is finished.
+
+11:21:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:31 TREAT SESSION The # 13  duty is finished.
+
+11:21:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:32 TREAT SESSION The # 14  duty is finished.
+
+11:21:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:32 TREAT SESSION The # 15  duty is finished.
+
+11:21:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:33 TREAT SESSION The # 16  duty is finished.
+
+11:21:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:33 TREAT SESSION The # 17  duty is finished.
+
+11:21:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:34 TREAT SESSION The # 18  duty is finished.
+
+11:21:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:34 TREAT SESSION The # 19  duty is finished.
+
+11:21:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:35 TREAT SESSION The # 20  duty is finished.
+
+11:21:35 TREAT SESSION The # 2  spot is finished.
+
+11:21:35 2 planes left.
+
+11:21:35 1  spots left in the current plane.
+
+11:21:40 TREAT SESSION status: finish the stage of cooling.
+
+11:21:40 ==============================================
+
+11:21:40 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:40 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:40 TREAT SESSION The # 1  duty is finished.
+
+11:21:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:41 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:41 TREAT SESSION The # 2  duty is finished.
+
+11:21:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:41 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:41 TREAT SESSION The # 3  duty is finished.
+
+11:21:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:42 TREAT SESSION The # 4  duty is finished.
+
+11:21:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:42 TREAT SESSION The # 5  duty is finished.
+
+11:21:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:43 TREAT SESSION The # 6  duty is finished.
+
+11:21:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:43 TREAT SESSION The # 7  duty is finished.
+
+11:21:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:44 TREAT SESSION The # 8  duty is finished.
+
+11:21:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:44 TREAT SESSION The # 9  duty is finished.
+
+11:21:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:45 TREAT SESSION The # 10  duty is finished.
+
+11:21:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:45 TREAT SESSION The # 11  duty is finished.
+
+11:21:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:46 TREAT SESSION The # 12  duty is finished.
+
+11:21:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:46 TREAT SESSION The # 13  duty is finished.
+
+11:21:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:47 TREAT SESSION The # 14  duty is finished.
+
+11:21:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:47 TREAT SESSION The # 15  duty is finished.
+
+11:21:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:48 TREAT SESSION The # 16  duty is finished.
+
+11:21:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:48 TREAT SESSION The # 17  duty is finished.
+
+11:21:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:49 TREAT SESSION The # 18  duty is finished.
+
+11:21:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:49 TREAT SESSION The # 19  duty is finished.
+
+11:21:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:50 TREAT SESSION The # 20  duty is finished.
+
+11:21:50 TREAT SESSION The # 3  spot is finished.
+
+11:21:50 1 planes left.
+
+11:21:50 0  spots left in the current plane.
+
+11:21:55 TREAT SESSION status: finish the stage of cooling.
+
+11:21:55 ==============================================
+
+11:21:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:56 TREAT SESSION The # 1  duty is finished.
+
+11:21:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:56 TREAT SESSION The # 2  duty is finished.
+
+11:21:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:57 TREAT SESSION The # 3  duty is finished.
+
+11:21:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:57 TREAT SESSION The # 4  duty is finished.
+
+11:21:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:58 TREAT SESSION The # 5  duty is finished.
+
+11:21:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:58 TREAT SESSION The # 6  duty is finished.
+
+11:21:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:59 TREAT SESSION The # 7  duty is finished.
+
+11:21:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:21:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:21:59 TREAT SESSION The # 8  duty is finished.
+
+11:21:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:00 TREAT SESSION The # 9  duty is finished.
+
+11:22:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:00 TREAT SESSION The # 10  duty is finished.
+
+11:22:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:01 TREAT SESSION The # 11  duty is finished.
+
+11:22:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:01 TREAT SESSION The # 12  duty is finished.
+
+11:22:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:02 TREAT SESSION The # 13  duty is finished.
+
+11:22:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:02 TREAT SESSION The # 14  duty is finished.
+
+11:22:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:03 TREAT SESSION The # 15  duty is finished.
+
+11:22:03 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:03 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:03 TREAT SESSION The # 16  duty is finished.
+
+11:22:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:04 TREAT SESSION The # 17  duty is finished.
+
+11:22:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:04 TREAT SESSION The # 18  duty is finished.
+
+11:22:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:05 TREAT SESSION The # 19  duty is finished.
+
+11:22:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:05 TREAT SESSION The # 20  duty is finished.
+
+11:22:05 TREAT SESSION The # 1  spot is finished.
+
+11:22:05 1 planes left.
+
+11:22:05 2  spots left in the current plane.
+
+11:22:10 TREAT SESSION status: finish the stage of cooling.
+
+11:22:10 ==============================================
+
+11:22:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:11 TREAT SESSION The # 1  duty is finished.
+
+11:22:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:11 TREAT SESSION The # 2  duty is finished.
+
+11:22:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:12 TREAT SESSION The # 3  duty is finished.
+
+11:22:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:12 TREAT SESSION The # 4  duty is finished.
+
+11:22:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:13 TREAT SESSION The # 5  duty is finished.
+
+11:22:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:13 TREAT SESSION The # 6  duty is finished.
+
+11:22:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:14 TREAT SESSION The # 7  duty is finished.
+
+11:22:14 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:14 TREAT SESSION The # 8  duty is finished.
+
+11:22:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:15 TREAT SESSION The # 9  duty is finished.
+
+11:22:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:15 TREAT SESSION The # 10  duty is finished.
+
+11:22:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:16 TREAT SESSION The # 11  duty is finished.
+
+11:22:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:16 TREAT SESSION The # 12  duty is finished.
+
+11:22:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:17 TREAT SESSION The # 13  duty is finished.
+
+11:22:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:18 TREAT SESSION The # 14  duty is finished.
+
+11:22:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:18 TREAT SESSION The # 15  duty is finished.
+
+11:22:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:19 TREAT SESSION The # 16  duty is finished.
+
+11:22:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:19 TREAT SESSION The # 17  duty is finished.
+
+11:22:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:20 TREAT SESSION The # 18  duty is finished.
+
+11:22:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:20 TREAT SESSION The # 19  duty is finished.
+
+11:22:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:21 TREAT SESSION The # 20  duty is finished.
+
+11:22:21 TREAT SESSION The # 2  spot is finished.
+
+11:22:21 1 planes left.
+
+11:22:21 1  spots left in the current plane.
+
+11:22:26 TREAT SESSION status: finish the stage of cooling.
+
+11:22:26 ==============================================
+
+11:22:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:26 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:26 TREAT SESSION The # 1  duty is finished.
+
+11:22:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:27 TREAT SESSION The # 2  duty is finished.
+
+11:22:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:27 TREAT SESSION The # 3  duty is finished.
+
+11:22:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:28 TREAT SESSION The # 4  duty is finished.
+
+11:22:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:28 TREAT SESSION The # 5  duty is finished.
+
+11:22:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:29 TREAT SESSION The # 6  duty is finished.
+
+11:22:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:29 TREAT SESSION The # 7  duty is finished.
+
+11:22:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:30 TREAT SESSION The # 8  duty is finished.
+
+11:22:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:30 TREAT SESSION The # 9  duty is finished.
+
+11:22:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:31 TREAT SESSION The # 10  duty is finished.
+
+11:22:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:31 TREAT SESSION The # 11  duty is finished.
+
+11:22:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:32 TREAT SESSION The # 12  duty is finished.
+
+11:22:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:32 TREAT SESSION The # 13  duty is finished.
+
+11:22:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:33 TREAT SESSION The # 14  duty is finished.
+
+11:22:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:33 TREAT SESSION The # 15  duty is finished.
+
+11:22:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:34 TREAT SESSION The # 16  duty is finished.
+
+11:22:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:34 TREAT SESSION The # 17  duty is finished.
+
+11:22:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:35 TREAT SESSION The # 18  duty is finished.
+
+11:22:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:35 TREAT SESSION The # 19  duty is finished.
+
+11:22:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:22:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:22:36 TREAT SESSION The # 20  duty is finished.
+
+11:22:36 TREAT SESSION The # 3  spot is finished.
+
+11:22:36 0 planes left.
+
+11:22:41 TREAT SESSION status: finish the stage of cooling.
+
+11:22:41 ==============================================
+
+11:22:41 TREAT SESSION All the spots have been sonicated.
+
+11:22:41 ==========================================
+
+11:25:52 identifyProbe channel  :  71
+
+11:25:52 Warning: QIODevice::write: device not open
+
+11:25:52 Warning: QIODevice::read: device not open
+
+11:25:54 Power Amplifier Module  : Connection failure
+
+11:25:54 Set the pointer of do to NULL 0x0
+
+11:25:55 IP Address: "192.168.1.101"
+
+11:25:55 Listen OK
+
+11:26:40 AcceptConnection OK
+
+11:26:40 Ready read...
+
+11:26:40 Reading head...
+
+11:26:40 Receiving plan...
+
+11:26:40 m_totalBytes: 426
+
+11:26:40 m_hashX: QHash((2, (-2.49688, -2.49688))(1, (1.0806, 2.16121, 3.24181)))
+
+11:26:40 m_hashY: QHash((2, (6.36508, 5.45578))(1, (2.52441, 4.20736, 5.8903)))
+
+11:26:40 m_hashZ: QHash((2, (1.9341, 1.47945))(1, (1.80251, 3.18428, 4.56606)))
+
+11:26:40 m_spotOrder: QHash((2, (0, 1))(1, (0, 1, 2)))
+
+11:26:40 Volt: 15 Total time: 6 Period: 500 Duty cycle: 60 Cooling time: 1
+
+11:26:40 sendInfo: "From: ServerName, To: ClientName, Time: 1, 周日 九月 6 2015, 11:26:40"
+
+11:26:40 Receive plan finished.
+
+11:26:40 Write back...
+
+11:26:40 "From: ServerName, To: ClientName, Time: 1, 周日 九月 6 2015, 11:26:40"
+
+11:26:40 Send back finished.
+
+11:26:40 -------------------
+
+11:26:40 2 : First spot: ( -2.49688 , 6.36508 , 1.9341 )
+
+11:26:40 Size: 2
+
+11:26:40 1 : First spot: ( 1.0806 , 2.52441 , 1.80251 )
+
+11:26:40 Size: 3
+
+11:26:40 CLIENT : RECEIVE TREATMENT PLAN SUCCEEDED.
+
+11:26:40 *******************
+
+11:26:41 AcceptConnection OK
+
+11:26:41 Ready read...
+
+11:26:41 Reading head...
+
+11:26:41 Receiving command...
+
+11:26:41 1
+
+11:26:41 2 planes left.
+
+11:26:41 2  spots left in the current plane.
+
+11:26:41 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:26:41 Warning: ==============================================
+
+11:26:41 Start
+
+11:26:41 CLIENT : RECEIVED COMMAND START.
+
+11:26:41 Receive command finished.
+
+11:26:41 
+*******************
+
+11:26:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:41 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:41 TREAT SESSION The # 1  duty is finished.
+
+11:26:41 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:42 TREAT SESSION The # 2  duty is finished.
+
+11:26:42 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:42 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:42 TREAT SESSION The # 3  duty is finished.
+
+11:26:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:43 TREAT SESSION The # 4  duty is finished.
+
+11:26:43 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:43 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:43 TREAT SESSION The # 5  duty is finished.
+
+11:26:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:44 TREAT SESSION The # 6  duty is finished.
+
+11:26:44 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:44 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:44 TREAT SESSION The # 7  duty is finished.
+
+11:26:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:45 TREAT SESSION The # 8  duty is finished.
+
+11:26:45 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:45 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:45 TREAT SESSION The # 9  duty is finished.
+
+11:26:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:46 TREAT SESSION The # 10  duty is finished.
+
+11:26:46 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:46 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:46 TREAT SESSION The # 11  duty is finished.
+
+11:26:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:47 TREAT SESSION The # 12  duty is finished.
+
+11:26:47 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:47 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:47 TREAT SESSION The # 13  duty is finished.
+
+11:26:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:48 TREAT SESSION The # 14  duty is finished.
+
+11:26:48 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:48 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:48 TREAT SESSION The # 15  duty is finished.
+
+11:26:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:49 TREAT SESSION The # 16  duty is finished.
+
+11:26:49 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:49 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:49 TREAT SESSION The # 17  duty is finished.
+
+11:26:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:50 TREAT SESSION The # 18  duty is finished.
+
+11:26:50 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:50 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:50 TREAT SESSION The # 19  duty is finished.
+
+11:26:51 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:51 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:51 TREAT SESSION The # 20  duty is finished.
+
+11:26:51 TREAT SESSION The # 1  spot is finished.
+
+11:26:51 2 planes left.
+
+11:26:51 1  spots left in the current plane.
+
+11:26:52 TREAT SESSION status: finish the stage of cooling.
+
+11:26:52 ==============================================
+
+11:26:52 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:52 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:52 TREAT SESSION The # 1  duty is finished.
+
+11:26:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:53 TREAT SESSION The # 2  duty is finished.
+
+11:26:53 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:53 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:53 TREAT SESSION The # 3  duty is finished.
+
+11:26:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:54 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:54 TREAT SESSION The # 4  duty is finished.
+
+11:26:54 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:55 TREAT SESSION The # 5  duty is finished.
+
+11:26:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:55 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:55 TREAT SESSION The # 6  duty is finished.
+
+11:26:55 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:56 TREAT SESSION The # 7  duty is finished.
+
+11:26:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:56 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:56 TREAT SESSION The # 8  duty is finished.
+
+11:26:56 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:57 TREAT SESSION The # 9  duty is finished.
+
+11:26:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:57 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:57 TREAT SESSION The # 10  duty is finished.
+
+11:26:57 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:58 TREAT SESSION The # 11  duty is finished.
+
+11:26:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:58 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:58 TREAT SESSION The # 12  duty is finished.
+
+11:26:58 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:59 TREAT SESSION The # 13  duty is finished.
+
+11:26:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:26:59 TREAT SESSION Status: finish the stage of duty off.
+
+11:26:59 TREAT SESSION The # 14  duty is finished.
+
+11:26:59 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:00 TREAT SESSION The # 15  duty is finished.
+
+11:27:00 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:00 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:00 TREAT SESSION The # 16  duty is finished.
+
+11:27:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:01 TREAT SESSION The # 17  duty is finished.
+
+11:27:01 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:01 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:01 TREAT SESSION The # 18  duty is finished.
+
+11:27:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:02 TREAT SESSION The # 19  duty is finished.
+
+11:27:02 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:02 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:02 TREAT SESSION The # 20  duty is finished.
+
+11:27:02 TREAT SESSION The # 2  spot is finished.
+
+11:27:02 1 planes left.
+
+11:27:02 0  spots left in the current plane.
+
+11:27:03 TREAT SESSION status: finish the stage of cooling.
+
+11:27:03 ==============================================
+
+11:27:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:04 TREAT SESSION The # 1  duty is finished.
+
+11:27:04 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:04 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:04 TREAT SESSION The # 2  duty is finished.
+
+11:27:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:05 TREAT SESSION The # 3  duty is finished.
+
+11:27:05 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:05 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:05 TREAT SESSION The # 4  duty is finished.
+
+11:27:06 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:06 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:06 TREAT SESSION The # 5  duty is finished.
+
+11:27:06 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:06 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:06 TREAT SESSION The # 6  duty is finished.
+
+11:27:07 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:07 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:07 TREAT SESSION The # 7  duty is finished.
+
+11:27:07 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:07 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:07 TREAT SESSION The # 8  duty is finished.
+
+11:27:08 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:08 TREAT SESSION The # 9  duty is finished.
+
+11:27:08 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:08 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:08 TREAT SESSION The # 10  duty is finished.
+
+11:27:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:09 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:09 TREAT SESSION The # 11  duty is finished.
+
+11:27:09 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:09 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:09 TREAT SESSION The # 12  duty is finished.
+
+11:27:10 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:10 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:10 TREAT SESSION The # 13  duty is finished.
+
+11:27:10 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:11 TREAT SESSION The # 14  duty is finished.
+
+11:27:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:11 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:11 TREAT SESSION The # 15  duty is finished.
+
+11:27:11 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:12 TREAT SESSION The # 16  duty is finished.
+
+11:27:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:12 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:12 TREAT SESSION The # 17  duty is finished.
+
+11:27:12 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:13 TREAT SESSION The # 18  duty is finished.
+
+11:27:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:13 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:13 TREAT SESSION The # 19  duty is finished.
+
+11:27:13 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:14 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:14 TREAT SESSION The # 20  duty is finished.
+
+11:27:14 TREAT SESSION The # 1  spot is finished.
+
+11:27:14 1 planes left.
+
+11:27:14 2  spots left in the current plane.
+
+11:27:15 TREAT SESSION status: finish the stage of cooling.
+
+11:27:15 ==============================================
+
+11:27:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:15 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:15 TREAT SESSION The # 1  duty is finished.
+
+11:27:15 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:16 TREAT SESSION The # 2  duty is finished.
+
+11:27:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:16 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:16 TREAT SESSION The # 3  duty is finished.
+
+11:27:16 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:17 TREAT SESSION The # 4  duty is finished.
+
+11:27:17 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:17 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:17 TREAT SESSION The # 5  duty is finished.
+
+11:27:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:18 TREAT SESSION The # 6  duty is finished.
+
+11:27:18 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:18 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:18 TREAT SESSION The # 7  duty is finished.
+
+11:27:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:19 TREAT SESSION The # 8  duty is finished.
+
+11:27:19 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:19 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:19 TREAT SESSION The # 9  duty is finished.
+
+11:27:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:20 TREAT SESSION The # 10  duty is finished.
+
+11:27:20 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:20 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:20 TREAT SESSION The # 11  duty is finished.
+
+11:27:21 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:21 TREAT SESSION The # 12  duty is finished.
+
+11:27:21 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:21 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:21 TREAT SESSION The # 13  duty is finished.
+
+11:27:22 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:22 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:22 TREAT SESSION The # 14  duty is finished.
+
+11:27:22 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:22 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:22 TREAT SESSION The # 15  duty is finished.
+
+11:27:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:23 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:23 TREAT SESSION The # 16  duty is finished.
+
+11:27:23 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:23 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:23 TREAT SESSION The # 17  duty is finished.
+
+11:27:24 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:24 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:24 TREAT SESSION The # 18  duty is finished.
+
+11:27:24 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:24 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:24 TREAT SESSION The # 19  duty is finished.
+
+11:27:25 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:25 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:25 TREAT SESSION The # 20  duty is finished.
+
+11:27:25 TREAT SESSION The # 2  spot is finished.
+
+11:27:25 1 planes left.
+
+11:27:25 1  spots left in the current plane.
+
+11:27:26 TREAT SESSION status: finish the stage of cooling.
+
+11:27:26 ==============================================
+
+11:27:26 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:26 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:26 TREAT SESSION The # 1  duty is finished.
+
+11:27:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:27 TREAT SESSION The # 2  duty is finished.
+
+11:27:27 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:27 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:27 TREAT SESSION The # 3  duty is finished.
+
+11:27:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:28 TREAT SESSION The # 4  duty is finished.
+
+11:27:28 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:28 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:28 TREAT SESSION The # 5  duty is finished.
+
+11:27:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:29 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:29 TREAT SESSION The # 6  duty is finished.
+
+11:27:29 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:30 TREAT SESSION The # 7  duty is finished.
+
+11:27:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:30 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:30 TREAT SESSION The # 8  duty is finished.
+
+11:27:30 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:31 TREAT SESSION The # 9  duty is finished.
+
+11:27:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:31 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:31 TREAT SESSION The # 10  duty is finished.
+
+11:27:31 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:32 TREAT SESSION The # 11  duty is finished.
+
+11:27:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:32 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:32 TREAT SESSION The # 12  duty is finished.
+
+11:27:32 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:33 TREAT SESSION The # 13  duty is finished.
+
+11:27:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:33 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:33 TREAT SESSION The # 14  duty is finished.
+
+11:27:33 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:34 TREAT SESSION The # 15  duty is finished.
+
+11:27:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:34 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:34 TREAT SESSION The # 16  duty is finished.
+
+11:27:34 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:35 TREAT SESSION The # 17  duty is finished.
+
+11:27:35 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:35 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:35 TREAT SESSION The # 18  duty is finished.
+
+11:27:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:36 TREAT SESSION The # 19  duty is finished.
+
+11:27:36 TREAT SESSION Status: finish the stage of duty on.
+
+11:27:36 TREAT SESSION Status: finish the stage of duty off.
+
+11:27:36 TREAT SESSION The # 20  duty is finished.
+
+11:27:36 TREAT SESSION The # 3  spot is finished.
+
+11:27:36 0 planes left.
+
+11:27:37 TREAT SESSION status: finish the stage of cooling.
+
+11:27:37 ==============================================
+
+11:27:37 TREAT SESSION All the spots have been sonicated.
+
+11:27:37 ==========================================
+

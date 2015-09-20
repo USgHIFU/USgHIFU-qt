@@ -1,0 +1,52 @@
+15:42:50 identifyProbe channel  :  100
+
+15:43:06 Power Amplifier Module  : Connection failure
+
+15:43:06 Set the pointer of do to NULL 0x0
+
+15:43:07 IP Address: "192.168.0.115"
+
+15:43:07 Listen OK
+
+15:43:59 identifyProbe channel  :  67
+
+15:44:00 Warning: QIODevice::write: device not open
+
+15:44:01 Warning: QIODevice::read: device not open
+
+15:44:03 Power Amplifier Module  : Connection failure
+
+15:44:03 Set the pointer of do to NULL 0x0
+
+15:44:04 IP Address: "192.168.0.115"
+
+15:44:04 Listen OK
+
+15:44:23 identifyProbe channel  :  101
+
+15:44:25 Warning: QIODevice::write: device not open
+
+15:44:25 Warning: QIODevice::read: device not open
+
+15:44:27 Power Amplifier Module  : Connection failure
+
+15:44:27 Set the pointer of do to NULL 0x0
+
+15:44:28 IP Address: "192.168.0.115"
+
+15:44:28 Listen OK
+
+15:46:41 identifyProbe channel  :  96
+
+15:46:42 Warning: QIODevice::write: device not open
+
+15:46:43 Warning: QIODevice::read: device not open
+
+15:47:21 Power Amplifier Module  : Connection failure
+
+15:47:21 Set the pointer of do to NULL 0x0
+
+15:47:22 IP Address: "192.168.0.115"
+
+15:47:22 Listen OK
+

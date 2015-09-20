@@ -3,7 +3,7 @@
  *
  * Code generation for function 'PhaseInfo'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:17 2015
  *
  */
 
@@ -41,6 +41,14 @@ typedef struct emxArray_real_T_1x20
     int32_T size[2];
 } emxArray_real_T_1x20;
 #endif
+#ifndef struct_emxArray_real_T_1x24
+#define struct_emxArray_real_T_1x24
+typedef struct emxArray_real_T_1x24
+{
+    real_T data[24];
+    int32_T size[2];
+} emxArray_real_T_1x24;
+#endif
 #ifndef struct_emxArray_real_T_1x400
 #define struct_emxArray_real_T_1x400
 typedef struct emxArray_real_T_1x400
@@ -48,14 +56,6 @@ typedef struct emxArray_real_T_1x400
     real_T data[400];
     int32_T size[2];
 } emxArray_real_T_1x400;
-#endif
-#ifndef struct_emxArray_real_T_1x64
-#define struct_emxArray_real_T_1x64
-typedef struct emxArray_real_T_1x64
-{
-    real_T data[64];
-    int32_T size[2];
-} emxArray_real_T_1x64;
 #endif
 #ifndef struct_emxArray_real_T_20
 #define struct_emxArray_real_T_20

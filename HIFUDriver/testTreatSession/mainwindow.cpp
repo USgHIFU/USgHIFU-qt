@@ -67,14 +67,18 @@ MainWindow::MainWindow(QWidget *parent)
                                  coolingTime->text().toInt()};
     session->setSonicationParam(param);
 
-    connect(start,SIGNAL(clicked(bool)),SLOT(btnStartClick()));
-    connect(stop,SIGNAL(clicked(bool)),SLOT(btnStopClick()));
-    connect(pause,SIGNAL(clicked(bool)),SLOT(btnPauseClick()));
-    connect(resume,SIGNAL(clicked(bool)),SLOT(btnResumeClick()));
+    connect(start,SIGNAL(clicked()),SLOT(btnStartClick()));
+    connect(stop,SIGNAL(clicked()),SLOT(btnStopClick()));
+    connect(pause,SIGNAL(clicked()),SLOT(btnPauseClick()));
+    connect(resume,SIGNAL(clicked()),SLOT(btnResumeClick()));
     connect(m_client,SIGNAL(commandStart()),start,SIGNAL(clicked()));
     connect(m_client,SIGNAL(commandStop()),stop,SIGNAL(clicked()));
+    connect(m_client,SIGNAL(commandPause()),pause,SIGNAL(clicked()));
+    connect(m_client,SIGNAL(commandResume()),resume,SIGNAL(clicked()));
     connect(startPA,SIGNAL(clicked()),SLOT(btnStartPAClicked()));
     connect(startDO,SIGNAL(clicked()),SLOT(btnStartDOClicked()));
+
+    connect(m_client,SIGNAL(planReceivingCompleted()),SLOT(updateStatus()));
 }
 
 MainWindow::~MainWindow()
@@ -117,4 +121,9 @@ void MainWindow::btnStartPAClicked()
 void MainWindow::btnStartDOClicked()
 {
     session->testDOController();
+}
+
+void MainWindow::updateStatus()
+{
+    status->setText("receiving completed.");
 }

@@ -3,7 +3,7 @@
  *
  * Code generation for function 'ForwardMatrix'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:18 2015
  *
  */
 
@@ -68,7 +68,7 @@ static void eml_xgemm(int32_T n, const real_T A[9], const real_T B_data[1200],
 void ForwardMatrix(const real_T XYZVectorArrayCor_data[1200], const int32_T
                    XYZVectorArrayCor_size[2], const real_T DeltaS_data[400],
                    const int32_T DeltaS_size[2], real_T focusInfo_x, real_T
-                   focusInfo_y, real_T focusInfo_z, creal_T H[112],
+                   focusInfo_y, real_T focusInfo_z, creal_T H[144],
                    emxArray_real_T *XArray, emxArray_real_T *YArray,
                    emxArray_real_T *ZArray)
 {
@@ -76,9 +76,9 @@ void ForwardMatrix(const real_T XYZVectorArrayCor_data[1200], const int32_T
   emxArray_real_T *arrayInfo_anglezelement;
   real_T expl_temp;
   real_T b_expl_temp;
-  real_T c_expl_temp[4];
-  real_T d_expl_temp[4];
-  real_T e_expl_temp[4];
+  real_T c_expl_temp[6];
+  real_T d_expl_temp[6];
+  real_T e_expl_temp[6];
   real_T f_expl_temp;
   real_T theta;
   real_T phi;
@@ -119,35 +119,36 @@ void ForwardMatrix(const real_T XYZVectorArrayCor_data[1200], const int32_T
                c_expl_temp, &b_expl_temp, &expl_temp, arrayInfo_anglexelement,
                arrayInfo_anglezelement);
   k = XArray->size[0] * XArray->size[1];
-  XArray->size[0] = 112;
+  XArray->size[0] = 144;
   XArray->size[1] = 400;
   emxEnsureCapacity((emxArray__common *)XArray, k, (int32_T)sizeof(real_T));
-  for (k = 0; k < 44800; k++) {
+  for (k = 0; k < 57600; k++) {
     XArray->data[k] = 0.0;
   }
 
   k = YArray->size[0] * YArray->size[1];
-  YArray->size[0] = 112;
+  YArray->size[0] = 144;
   YArray->size[1] = 400;
   emxEnsureCapacity((emxArray__common *)YArray, k, (int32_T)sizeof(real_T));
-  for (k = 0; k < 44800; k++) {
+  for (k = 0; k < 57600; k++) {
     YArray->data[k] = 0.0;
   }
 
   k = ZArray->size[0] * ZArray->size[1];
-  ZArray->size[0] = 112;
+  ZArray->size[0] = 144;
   ZArray->size[1] = 400;
   emxEnsureCapacity((emxArray__common *)ZArray, k, (int32_T)sizeof(real_T));
-  for (k = 0; k < 44800; k++) {
+  for (k = 0; k < 57600; k++) {
     ZArray->data[k] = 0.0;
   }
 
-  for (k = 0; k < 112; k++) {
+  /*  Hes = complex(zeros(1,112)); */
+  for (k = 0; k < 144; k++) {
     H[k].re = 0.0;
     H[k].im = 0.0;
   }
 
-  for (iElement = 0; iElement < 112; iElement++) {
+  for (iElement = 0; iElement < 144; iElement++) {
     /* ************************************************************************** */
     /* ************************************************************************** */
     /* *  时间：2006年6月14日                                                    * */
@@ -325,7 +326,7 @@ void ForwardMatrix(const real_T XYZVectorArrayCor_data[1200], const int32_T
 
   emxFree_real_T(&arrayInfo_anglezelement);
   emxFree_real_T(&arrayInfo_anglexelement);
-  for (k = 0; k < 112; k++) {
+  for (k = 0; k < 144; k++) {
     r2 = H[k].re;
     phi = H[k].im;
     H[k].re = 0.0 * r2 - 1.54768E+9 * phi;

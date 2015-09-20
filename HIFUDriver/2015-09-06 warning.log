@@ -1,0 +1,20 @@
+11:16:04 Warning: QIODevice::write: device not open
+
+11:16:04 Warning: QIODevice::read: device not open
+
+11:16:58 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:16:58 Warning: ==============================================
+
+11:19:37 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:19:37 Warning: ==============================================
+
+11:25:52 Warning: QIODevice::write: device not open
+
+11:25:52 Warning: QIODevice::read: device not open
+
+11:26:41 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+11:26:41 Warning: ==============================================
+

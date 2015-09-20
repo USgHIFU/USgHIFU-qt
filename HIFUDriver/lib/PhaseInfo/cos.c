@@ -3,7 +3,7 @@
  *
  * Code generation for function 'cos'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:17 2015
  *
  */
 
@@ -23,13 +23,13 @@
 /* Function Declarations */
 
 /* Function Definitions */
-void b_cos(emxArray_real_T *x)
+void b_cos(real_T x_data[20], int32_T x_size[2])
 {
-  int32_T i8;
+  int32_T i5;
   int32_T k;
-  i8 = x->size[1];
-  for (k = 0; k <= i8 - 1; k++) {
-    x->data[k] = cos(x->data[k]);
+  i5 = x_size[1];
+  for (k = 0; k <= i5 - 1; k++) {
+    x_data[k] = cos(x_data[k]);
   }
 }
 

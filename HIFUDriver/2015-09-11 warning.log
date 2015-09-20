@@ -1,0 +1,464 @@
+13:49:06 Warning: QIODevice::write: device not open
+
+13:49:06 Warning: QIODevice::read: device not open
+
+13:49:52 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+13:49:52 Warning: ==============================================
+
+13:50:49 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+13:50:49 Warning: TREAT SESSION The spot # 1 , duty # 32  is finished.
+
+13:50:49 Warning: ==========================================
+
+13:51:31 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+13:51:31 Warning: ==============================================
+
+13:51:48 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+13:51:48 Warning: TREAT SESSION The spot # 0 , duty # 33  is finished.
+
+13:51:48 Warning: ==========================================
+
+13:55:23 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+13:55:23 Warning: ==============================================
+
+13:56:12 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+13:56:12 Warning: TREAT SESSION The spot # 1 , duty # 16  is finished.
+
+13:56:12 Warning: ==========================================
+
+13:57:51 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+13:57:51 Warning: ==============================================
+
+13:59:12 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+13:59:12 Warning: TREAT SESSION The spot # 2 , duty # 0  is finished.
+
+13:59:12 Warning: ==========================================
+
+14:01:13 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:01:13 Warning: ==============================================
+
+14:01:34 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:01:34 Warning: TREAT SESSION The spot # 0 , duty # 41  is finished.
+
+14:01:34 Warning: ==========================================
+
+14:07:20 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:07:20 Warning: ==============================================
+
+14:08:17 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:08:17 Warning: TREAT SESSION The spot # 1 , duty # 32  is finished.
+
+14:08:17 Warning: ==========================================
+
+14:09:12 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:09:12 Warning: ==============================================
+
+14:09:32 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:09:32 Warning: TREAT SESSION The spot # 0 , duty # 38  is finished.
+
+14:09:32 Warning: ==========================================
+
+14:09:33 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:09:33 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:09:33 Warning: ==========================================
+
+14:17:03 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:17:03 Warning: ==============================================
+
+14:17:22 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:17:22 Warning: TREAT SESSION The spot # 0 , duty # 38  is finished.
+
+14:17:22 Warning: ==========================================
+
+14:18:08 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:18:08 Warning: ==============================================
+
+14:18:37 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:18:37 Warning: TREAT SESSION The spot # 0 , duty # 56  is finished.
+
+14:18:37 Warning: ==========================================
+
+14:19:47 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:19:47 Warning: ==============================================
+
+14:20:15 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:20:15 Warning: TREAT SESSION The spot # 0 , duty # 54  is finished.
+
+14:20:15 Warning: ==========================================
+
+14:21:22 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:21:22 Warning: ==============================================
+
+14:22:19 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:22:19 Warning: TREAT SESSION The spot # 1 , duty # 31  is finished.
+
+14:22:19 Warning: ==========================================
+
+14:26:16 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:26:16 Warning: ==============================================
+
+14:26:36 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:26:36 Warning: TREAT SESSION The spot # 0 , duty # 40  is finished.
+
+14:26:36 Warning: ==========================================
+
+14:26:37 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:26:37 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:26:37 Warning: ==========================================
+
+14:26:37 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:26:37 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:26:37 Warning: ==========================================
+
+14:26:37 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:26:37 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:26:37 Warning: ==========================================
+
+14:27:21 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:27:21 Warning: ==============================================
+
+14:28:04 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:28:04 Warning: TREAT SESSION The spot # 1 , duty # 3  is finished.
+
+14:28:04 Warning: ==========================================
+
+14:28:04 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:28:04 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:28:04 Warning: ==========================================
+
+14:28:59 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:28:59 Warning: ==============================================
+
+14:32:13 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:32:13 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:32:13 Warning: ==========================================
+
+14:32:32 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:32:32 Warning: ==============================================
+
+14:35:18 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:35:18 Warning: ==============================================
+
+14:35:52 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:35:52 Warning: TREAT SESSION The spot # 3 , duty # 0  is finished.
+
+14:35:52 Warning: ==========================================
+
+14:44:37 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:44:37 Warning: ==============================================
+
+14:45:33 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:45:33 Warning: TREAT SESSION The spot # 1 , duty # 31  is finished.
+
+14:45:33 Warning: ==========================================
+
+14:48:47 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:48:47 Warning: ==============================================
+
+14:49:10 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:49:10 Warning: TREAT SESSION The spot # 0 , duty # 46  is finished.
+
+14:49:10 Warning: ==========================================
+
+14:50:24 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:50:24 Warning: ==============================================
+
+14:50:36 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:50:36 Warning: TREAT SESSION The spot # 0 , duty # 23  is finished.
+
+14:50:36 Warning: ==========================================
+
+14:53:00 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:53:00 Warning: ==============================================
+
+14:53:58 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:53:58 Warning: TREAT SESSION The spot # 1 , duty # 33  is finished.
+
+14:53:58 Warning: ==========================================
+
+14:54:48 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:54:48 Warning: ==============================================
+
+14:55:06 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:55:06 Warning: TREAT SESSION The spot # 0 , duty # 35  is finished.
+
+14:55:06 Warning: ==========================================
+
+14:55:25 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:55:25 Warning: ==============================================
+
+14:55:29 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:55:29 Warning: TREAT SESSION The spot # 0 , duty # 8  is finished.
+
+14:55:29 Warning: ==========================================
+
+14:56:26 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:56:26 Warning: ==============================================
+
+14:56:29 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:56:29 Warning: TREAT SESSION The spot # 0 , duty # 6  is finished.
+
+14:56:29 Warning: ==========================================
+
+14:56:30 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:56:30 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+14:56:30 Warning: ==========================================
+
+14:57:36 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+14:57:36 Warning: ==============================================
+
+14:57:42 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+14:57:42 Warning: TREAT SESSION The spot # 0 , duty # 11  is finished.
+
+14:57:42 Warning: ==========================================
+
+15:00:02 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:00:02 Warning: ==============================================
+
+15:00:19 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:00:19 Warning: TREAT SESSION The spot # 0 , duty # 33  is finished.
+
+15:00:19 Warning: ==========================================
+
+15:00:19 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:00:19 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+15:00:19 Warning: ==========================================
+
+15:02:50 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:02:50 Warning: ==============================================
+
+15:03:09 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:03:09 Warning: TREAT SESSION The spot # 0 , duty # 37  is finished.
+
+15:03:09 Warning: ==========================================
+
+15:04:19 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:04:19 Warning: ==============================================
+
+15:04:34 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:04:34 Warning: TREAT SESSION The spot # 0 , duty # 30  is finished.
+
+15:04:34 Warning: ==========================================
+
+15:07:50 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:07:50 Warning: ==============================================
+
+15:08:07 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:08:07 Warning: TREAT SESSION The spot # 0 , duty # 33  is finished.
+
+15:08:07 Warning: ==========================================
+
+15:10:52 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:10:52 Warning: ==============================================
+
+15:11:06 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:11:06 Warning: TREAT SESSION The spot # 0 , duty # 28  is finished.
+
+15:11:06 Warning: ==========================================
+
+15:11:55 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:11:55 Warning: ==============================================
+
+15:12:39 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:12:39 Warning: ==============================================
+
+15:12:50 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:12:50 Warning: TREAT SESSION The spot # 1 , duty # 27  is finished.
+
+15:12:50 Warning: ==========================================
+
+15:13:51 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:13:51 Warning: ==============================================
+
+15:14:23 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:14:23 Warning: TREAT SESSION The spot # 1 , duty # 0  is finished.
+
+15:14:23 Warning: ==========================================
+
+15:14:24 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:14:24 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+15:14:24 Warning: ==========================================
+
+15:17:53 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:17:53 Warning: ==============================================
+
+15:17:58 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:17:58 Warning: TREAT SESSION The spot # 0 , duty # 8  is finished.
+
+15:17:58 Warning: ==========================================
+
+15:21:17 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:21:17 Warning: ==============================================
+
+15:21:20 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:21:20 Warning: ==============================================
+
+15:21:22 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:21:22 Warning: TREAT SESSION The spot # 0 , duty # 7  is finished.
+
+15:21:22 Warning: ==========================================
+
+15:21:23 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:21:23 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+15:21:23 Warning: ==========================================
+
+15:21:58 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:21:58 Warning: ==============================================
+
+15:22:08 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:22:08 Warning: TREAT SESSION The spot # 0 , duty # 19  is finished.
+
+15:22:08 Warning: ==========================================
+
+15:22:33 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:22:33 Warning: ==============================================
+
+15:23:44 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:23:44 Warning: TREAT SESSION The spot # 1 , duty # 59  is finished.
+
+15:23:44 Warning: ==========================================
+
+15:25:43 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:25:43 Warning: ==============================================
+
+15:28:08 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:28:08 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+15:28:08 Warning: ==========================================
+
+15:29:08 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:29:08 Warning: ==============================================
+
+15:29:34 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:29:34 Warning: TREAT SESSION The spot # 0 , duty # 49  is finished.
+
+15:29:34 Warning: ==========================================
+
+15:30:52 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:30:52 Warning: ==============================================
+
+15:30:56 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:30:56 Warning: ==============================================
+
+15:31:00 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:31:00 Warning: TREAT SESSION The spot # 0 , duty # 14  is finished.
+
+15:31:00 Warning: ==========================================
+
+15:38:53 Warning: QIODevice::write: device not open
+
+15:38:54 Warning: QIODevice::read: device not open
+
+15:39:25 Warning: TREAT SESSION "ACTION: Start a treat session RESULT: Done successfully."
+
+15:39:25 Warning: ==============================================
+
+15:39:29 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:39:29 Warning: TREAT SESSION The spot # 0 , duty # 6  is finished.
+
+15:39:29 Warning: ==========================================
+
+15:41:45 Warning: TREAT SESSION "ACTION: Stop the running treat session RESULT: Done successfully."
+
+15:41:45 Warning: TREAT SESSION The spot # 0 , duty # 0  is finished.
+
+15:41:45 Warning: ==========================================
+

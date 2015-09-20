@@ -3,17 +3,17 @@
 
 class QTimer;
 
-#include <QObject>
-#include <QHash>
-#include <QList>
-#include <QLoggingCategory>
-#include <QStringList>
 #include "variable.h"
 #include "constant.h"
 #include "poweramp.h"
 #include "docontroller.h"
 #include "treatsession_global.h"
 
+#include <QObject>
+#include <QHash>
+#include <QList>
+#include <QLoggingCategory>
+#include <QStringList>
 
 Q_DECLARE_LOGGING_CATEGORY(Session)
 
@@ -57,6 +57,7 @@ public:
 public slots:
 
 signals:
+    readyStart();
 
 private slots:
     void timeoutFcn();
@@ -72,8 +73,6 @@ private:
     SessionParameter m_sessionParam;
     SessionRecorder m_recorder;
     SessionType m_currType;
-
-
 
     QTimer* m_timer;
     QStringList m_actionString;

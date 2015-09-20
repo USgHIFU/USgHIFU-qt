@@ -26,6 +26,7 @@ signals:
     commandStop();
     commandPause();
     commandResume();
+    receivingCompleted();
 
 private:
     QTcpServer m_tcpClient;    // Server object

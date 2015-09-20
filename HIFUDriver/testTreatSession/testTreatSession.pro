@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui network
+QT       += core gui network serialport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -13,16 +13,15 @@ TEMPLATE = app
 
 INCLUDEPATH += ../lib/TreatSession \
                ../lib/common \
-               ../lib/PA \
+               ../lib/PowerAmp \
                ../lib/DOController \
                ../lib/Client \
                ../lib/PhaseInfo
 
-LIBS += ../bin/TreatSession.dll \
-        ../bin/PowerAmp.dll \
+LIBS += ../bin/PowerAmp.dll \
         ../bin/DOController.dll \
+        ../bin/TreatSession.dll \
         ../bin/Client.dll
-
 
 SOURCES += main.cpp\
         mainwindow.cpp

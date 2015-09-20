@@ -3,7 +3,7 @@
  *
  * Code generation for function 'PhaseInfo'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:17 2015
  *
  */
 
@@ -32,7 +32,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-extern void PhaseInfo(uint8_T NumFocus, real_T PosXFocus, real_T PosYFocus, real_T PosZFocus, real_T Voltage[112], real_T AngleT[112]);
+extern void PhaseInfo(uint8_T NumFocus, real_T PosXFocus, real_T PosYFocus, real_T PosZFocus, real_T Voltage[144], real_T AngleT[144]);
 #ifdef __cplusplus
 }
 #endif

@@ -3,7 +3,7 @@
  *
  * Code generation for function 'sin'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:18 2015
  *
  */
 
@@ -32,7 +32,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-extern void b_sin(emxArray_real_T *x);
+extern void b_sin(real_T x_data[20], int32_T x_size[2]);
 #ifdef __cplusplus
 }
 #endif

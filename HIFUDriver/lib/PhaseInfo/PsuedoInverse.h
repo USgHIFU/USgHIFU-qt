@@ -3,7 +3,7 @@
  *
  * Code generation for function 'PsuedoInverse'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:18 2015
  *
  */
 
@@ -32,7 +32,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-extern void PsuedoInverse(const creal_T H[112], uint8_T focusInfo_numfocus, creal_T U[112], real_T AngleT[112]);
+extern void PsuedoInverse(const creal_T H[144], uint8_T focusInfo_numfocus, creal_T U[144], real_T AngleT[144]);
 #ifdef __cplusplus
 }
 #endif

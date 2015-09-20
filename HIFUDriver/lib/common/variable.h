@@ -5,7 +5,7 @@
 
 enum cmdType
 {
-    START,
+    START = 1,
     STOP,
     PAUSE,
     RESUME

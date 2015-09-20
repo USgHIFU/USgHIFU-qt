@@ -3,7 +3,7 @@
  *
  * Code generation for function 'ForwardMatrix'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:18 2015
  *
  */
 
@@ -32,7 +32,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-extern void ForwardMatrix(const real_T XYZVectorArrayCor_data[1200], const int32_T XYZVectorArrayCor_size[2], const real_T DeltaS_data[400], const int32_T DeltaS_size[2], real_T focusInfo_x, real_T focusInfo_y, real_T focusInfo_z, creal_T H[112], emxArray_real_T *XArray, emxArray_real_T *YArray, emxArray_real_T *ZArray);
+extern void ForwardMatrix(const real_T XYZVectorArrayCor_data[1200], const int32_T XYZVectorArrayCor_size[2], const real_T DeltaS_data[400], const int32_T DeltaS_size[2], real_T focusInfo_x, real_T focusInfo_y, real_T focusInfo_z, creal_T H[144], emxArray_real_T *XArray, emxArray_real_T *YArray, emxArray_real_T *ZArray);
 #ifdef __cplusplus
 }
 #endif

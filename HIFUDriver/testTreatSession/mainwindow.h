@@ -24,6 +24,7 @@ private slots:
     void btnResumeClick();
     void btnStartPAClicked();
     void btnStartDOClicked();
+    void updateStatus();
 
 private:
     TreatSession* session;

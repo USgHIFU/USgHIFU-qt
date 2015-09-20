@@ -1,7 +1,9 @@
-#include <QTimer>
 #include "treatsession.h"
 #include "header.h"
 #include "phaseinfo.c"
+
+#include <QTimer>
+#include <QDebug>
 
 Q_LOGGING_CATEGORY(Session,"TREAT SESSION")
 
@@ -15,7 +17,7 @@ TreatSession::TreatSession(QObject *parent) : QObject(parent)
     setErrorString();
 
     // used for testing here
-    m_sessionParam.spotCount = TEST_SPOT_COUNT;
+//    m_sessionParam.spotCount = TEST_SPOT_COUNT;
 
     m_timer = new QTimer(this);
     m_timer->setSingleShot(true);
@@ -28,10 +30,10 @@ void TreatSession::setSpots(QHash<float,QList<Spot3DCoordinate> > spots)
     QHash<float,QList<Spot3DCoordinate> >::iterator i;
     for (i=spots.begin();i!=spots.end();i++)
     {
-        m_spots.insert(i.key(),i.value());
-        m_currPlane = i.key();
-        m_sessionParam.spotCount = i.value().count();
+        m_spots.insert(i.key(),i.value());        
     }
+    m_currPlane = spots.begin().key();
+    m_sessionParam.spotCount = spots.begin().value().count();
 }
 
 //QList<Spot3DCoordinate> ServerPlan::getSpotCoordinate()
@@ -71,51 +73,77 @@ void TreatSession::start()
     //  TODO: fix the type of variable of volt (double => float)
     //  start the power amplifiers
         changeSpot();
-//        m_pa->startAllPowerAmp((double)m_sonicationParam.volt);
-    //  TODO: display the status
-    //  finish
+        /*
+         * old version of power amplifier
+        if (m_pa->isSerialPortExist())
+        {
+            m_pa->startAllPowerAmp((double)m_sonicationParam.volt);
+        }
+        */
+
+        if (m_pa->exist())
+        {
+            if (m_pa->startAll((VOLT)m_sonicationParam.volt))
+            {
+                //  TODO
+                //  Display information
+            }
+        }
 
     //  start the treat session with the first spot in the plan
 
-
     m_currType = ON;
 
-    m_do->enableDO();
+    if (m_do->isDoExist())
+    {
+        m_do->enableDO();
+    }
+
 
     //  deliver the acoustic energy at a given spot
 
     m_timer->start(m_sessionParam.dutyOn);
 
-//    qCWarning(STARTPA()) << STARTPA().categoryName()
-//                              << printLastAction(START)+printLastError(NoError);
+    qCWarning(Session()) << Session().categoryName()
+                         << printLastAction(START)+printLastError(NoError);
 
-//    qCWarning(STARTPA()) << "==============================================";
+    qCWarning(Session()) << "==============================================";
 }
 
 void TreatSession::onDuty()
 {
     m_currType = OFF;
     //  stop delivering the acoustic energy here
-    m_do->disableDO();
+    if (m_do->isDoExist())
+    {
+        m_do->disableDO();
+    }
 
     m_timer->start(m_sessionParam.dutyOff);
+    qCDebug(Session()) << Session().categoryName()
+                       << "Status: finish the stage of duty on.";
+
 }
 
 void TreatSession::offDuty()
 {
     m_recorder.periodIndex++;
 
-    qDebug() << "Period #" << m_recorder.periodIndex;
+    qCDebug(Session()) << Session().categoryName()
+                       << "Status: finish the stage of duty off.";
 
-//    qCDebug(Session()) << Session().categoryName()
-//                            << "The #" << m_recorder.periodIndex
-//                            << " duty is finished.";
+    qCDebug(Session()) << Session().categoryName()
+                       << "The #" << m_recorder.periodIndex
+                       << " duty is finished.";
 
     if (m_recorder.periodIndex < m_sessionParam.periodCount)
     {
         m_currType = ON;
         //  deliver the acoustic energy here at the same spot
-        m_do->enableDO();
+        if (m_do->isDoExist())
+        {
+            m_do->enableDO();
+        }
 
         m_timer->start(m_sessionParam.dutyOn);
     }else
@@ -125,40 +153,60 @@ void TreatSession::offDuty()
 
         m_currType = COOLING;
         //  deliver a cooling period here
-        m_do->disableDO();
+        if (m_do->isDoExist())
+        {
+            m_do->disableDO();
+        }
 
         m_timer->start(m_sessionParam.coolingTime);
+        qCDebug(Session()) << Session().categoryName()
+                           << "The #" << m_recorder.spotIndex
+                           << " spot is finished.";
         changeSpot();
     }
 }
 
 void TreatSession::cooling()
 {
-//    qCDebug(Session()) << Session().categoryName()
-//                            << "The #" << m_recorder.spotIndex
-//                            << " spot is finished.";
-//    qCDebug(Session()) << "==============================================";
-
-    qDebug() << "Spot #" << m_recorder.spotIndex;
+    qCDebug(Session()) << Session().categoryName()
+                       << "status: finish the stage of cooling.";
+    qCDebug(Session()) << "==============================================";
 
     if (m_recorder.spotIndex < m_sessionParam.spotCount)
     {
         // start delivering the acoustic energy at the next spot
 
         m_currType = ON;
-        m_do->enableDO();
+        if (m_do->isDoExist())
+        {
+            m_do->enableDO();
+        }
+
         m_timer->start(m_sessionParam.dutyOn);
     }else
     {
         // finish the current session
 
-//        qCDebug(Session()) << Session().categoryName()
-//                                << "All the spots have been sonicated.";
-//        qCDebug(Session()) << "==========================================";
-
-        qDebug() << "All the spots have been sonicated.";
+        qCDebug(Session()) << Session().categoryName()
+                           << "All the spots have been sonicated.";
+        qCDebug(Session()) << "==========================================";
 
         resetSessionRecorder();
+        /*
+         * old version of power amplifiers
+        if (m_pa->isSerialPortExist())
+        {
+            m_pa->resetAllPowerAmp();
+        }
+        */
+        if (m_pa->exist())
+        {
+            if (m_pa->resetAll())
+            {
+                //  TODO
+                //  Display the information
+            }
+        }
     }
 }
 
@@ -168,21 +216,12 @@ void TreatSession::timeoutFcn()
     {
     case ON:
         onDuty();
-//        qCDebug(Session()) << Session().categoryName()
-//                                << "status: finish the stage of duty on.";
-        qDebug() << "status: finish the stage of duty on.";
         break;
     case OFF:
-        offDuty();
-//        qCDebug(Session()) << Session().categoryName()
-//                                << "status: finish the stage of duty off.";
-        qDebug() << "status: finish the stage of duty off.";
+        offDuty();        
         break;
     case COOLING:
         cooling();
-//        qCDebug(Session()) << Session().categoryName()
-//                                << "status: finish the stage of cooling.";
-        qDebug() << "status: finish the stage of cooling.";
         break;
     }
 }
@@ -190,21 +229,53 @@ void TreatSession::timeoutFcn()
 void TreatSession::stop()
 {
     //  stop delivering the acoustic energy
-    m_do->disableDO();
+    if (m_do->isDoExist())
+    {
+        qDebug() << "DOController exists";
+        m_do->disableDO();
+    }else
+    {
+        qDebug() << "DOController not exists";
+    }
+
     if (m_timer->isActive())
     {
         m_timer->stop();
+        qDebug() << "Timer is stopped";
+    }else
+    {
+        qDebug() << "Timer not started";
     }
 
-//    m_pa->resetAllPowerAmp();
+    /*
+     * old version of power amplifiers
+    if (m_pa->isSerialPortExist())
+    {
+        m_pa->resetAllPowerAmp();
+        qDebug() << "PowerAmp is reset";
+    }else
+    {
+        qDebug() << "PowerAmp not existed";
+    }
+    */
+    if (m_pa->exist())
+    {
+        if (m_pa->resetAll())
+        {
+            qDebug() << "PowerAmp is reset";
+        }
+    }else
+    {
+        qDebug() << "PowerAmp not existed";
+    }
 
-//    qCWarning(STARTPA()) << STARTPA().categoryName()
-//                              << printLastAction(STOP)+printLastError(NoError);
-//    qCWarning(Session()) << Session().categoryName()
-//                              << "The spot #" << m_recorder.spotIndex
-//                              << ", duty #" << m_recorder.periodIndex
-//                              << " is finished.";
-//    qCWarning(Session()) << "==========================================";
+    qCWarning(Session()) << Session().categoryName()
+                              << printLastAction(STOP)+printLastError(NoError);
+    qCWarning(Session()) << Session().categoryName()
+                              << "The spot #" << m_recorder.spotIndex
+                              << ", duty #" << m_recorder.periodIndex
+                              << " is finished.";
+    qCWarning(Session()) << "==========================================";
 
     //  reset the session param
     resetSessionRecorder();
@@ -213,29 +284,33 @@ void TreatSession::stop()
 void TreatSession::pause()
 {
     // stop delivering the acoustic energy
-    m_do->disableDO();
+    if (m_do->isDoExist())
+    {
+        m_do->disableDO();
+    }
+
     if (m_timer->isActive())
     {
         m_timer->stop();
     }
-//    qCWarning(Session()) << Session().categoryName()
-//                              << printLastAction(PAUSE)+printLastError(NoError);
-//    qCWarning(Session()) << Session().categoryName()
-//                              << "The spot #" << m_recorder.spotIndex
-//                              << ", duty #" << m_recorder.periodIndex
-//                              << " is finished.";
-//    qCWarning(Session()) << "==========================================";
+    qCWarning(Session()) << Session().categoryName()
+                              << printLastAction(PAUSE)+printLastError(NoError);
+    qCWarning(Session()) << Session().categoryName()
+                              << "The spot #" << m_recorder.spotIndex
+                              << ", duty #" << m_recorder.periodIndex
+                              << " is finished.";
+    qCWarning(Session()) << "==========================================";
 }
 
 void TreatSession::resume()
 {
-//    qCWarning(Session()) << Session().categoryName()
-//                              << printLastAction(RESUME)+printLastError(NoError);
-//    qCWarning(Session()) << Session().categoryName()
-//                              << "The spot #" << m_recorder.spotIndex
-//                              << ", duty #" << m_recorder.periodIndex
-//                              << " is started, again.";
-//    qCWarning(Session()) << "==========================================";
+    qCWarning(Session()) << Session().categoryName()
+                              << printLastAction(RESUME)+printLastError(NoError);
+    qCWarning(Session()) << Session().categoryName()
+                              << "The spot #" << m_recorder.spotIndex
+                              << ", duty #" << m_recorder.periodIndex
+                              << " is started, again.";
+    qCWarning(Session()) << "==========================================";
 
     timeoutFcn();
 }
@@ -256,28 +331,30 @@ void TreatSession::changeSpot()
     //  determine whether the count of spots is 0
 
     QList<Spot3DCoordinate> spots = m_spots.value(m_currPlane);
-    if (spots.count())
+    Coordinate x,y,z;
+    if (spots.size())
     {
-        float x = spots.at(0).x;
-        float y = spots.at(0).y;
-        float z = spots.at(0).z;
+        qDebug() << m_spots.size() << "planes left.";
+        qDebug() << spots.size() << " spots left in the current plane.";
+        x = spots.at(0).x;
+        y = spots.at(0).y;
+        z = spots.at(0).z;
         spots.removeAt(0);
         m_spots.insert(m_currPlane,spots);
     }else
     {
         m_spots.remove(m_currPlane);
+        qDebug() << m_spots.size() << "planes left.";
+        resetSessionRecorder();
         if (m_spots.size())
         {
-//            QHash<float,QList<Spot3DCoordinate> >::iterator i;
-//            i = m_spots.begin();
-//            m_currPlane = i.key();
+            qDebug() << spots.size() << " spots left in the current plane.";
             m_currPlane = m_spots.begin().key();
-//            m_sessionParam.spotCount = i.value().count();
-            m_sessionParam.spotCount = m_spots.begin().value().count();
+            m_sessionParam.spotCount = m_spots.begin().value().size();
             spots = m_spots.value(m_currPlane);
-            float x = spots.at(0).x;
-            float y = spots.at(0).y;
-            float z = spots.at(0).z;
+            x = spots.at(0).x;
+            y = spots.at(0).y;
+            z = spots.at(0).z;
             spots.removeAt(0);
             m_spots.insert(m_currPlane,spots);
         }else
@@ -288,23 +365,23 @@ void TreatSession::changeSpot()
     }
 
     //  compute the phases for the spot
-//    FocusCount num = 1;
-//    real_T x = 0;
-//    real_T y = 0.005;
-//    real_T z = 0.14;
+    FocusCount num = 1;
 
-//    real_T volt[112];
-//    real_T angle[112];
+    real_T volt[144];
+    real_T angle[144];
 
-//    PhaseInfo(num,x,y,z,volt,angle);
-//    qDebug() << Session().categoryName();
-//    for (int i=0;i<TRANSDUCER_COUNT;i++)
-//    {
-//        qDebug() << "#" << i << ": " << angle[i];
-        //  load the phases for the spot
-//        m_do->sendPhase(i,angle[i]);
-//        m_do->loadPhase();
-//    }
+    PhaseInfo(num,(real_T)x,(real_T)y,(real_T)z,volt,angle);
+    qDebug() << Session().categoryName();
+    for (int i=0;i<TRANSDUCER_COUNT;i++)
+    {
+        qDebug() << "#" << i << ": " << angle[i];
+//          load the phases for the spot
+        if (m_do->isDoExist())
+        {
+            m_do->sendPhase(i,angle[i]);
+            m_do->loadPhase();
+        }
+    }
 }
 
 void TreatSession::setActionString()
@@ -323,7 +400,7 @@ void TreatSession::setErrorString()
 QString TreatSession::printLastAction(cmdType iType)
 {
     QString str = "ACTION: ";
-    str += m_actionString[iType];
+    str += m_actionString[iType - 1];
     str += " ";
     return str;
 }
@@ -338,7 +415,21 @@ QString TreatSession::printLastError(SessionError i)
 //  for the test of PA and DOController
 void TreatSession::testPA()
 {
-    m_pa->startAllPowerAmp(10);
+    /*
+     * old version of power amplifiers
+    if (m_pa->isSerialPortExist())
+    {
+        m_pa->startAllPowerAmp(10);
+    }
+    */
+
+    if (m_pa->exist())
+    {
+        if (m_pa->startAll(10))
+        {
+
+        }
+    }
 }
 
 void TreatSession::testDOController()
@@ -355,5 +446,8 @@ void TreatSession::testDOController()
 //    m_do->enableDO();
 
         changeSpot();
-        m_do->enableDO();
+        if (m_do->isDoExist())
+        {
+            m_do->enableDO();
+        }
 }

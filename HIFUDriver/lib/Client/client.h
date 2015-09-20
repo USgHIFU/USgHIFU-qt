@@ -37,7 +37,7 @@ public:
     ~Client();
 
 signals:
-    planCompleted();
+    planReceivingCompleted();
     commandStart();
     commandStop();
     commandPause();

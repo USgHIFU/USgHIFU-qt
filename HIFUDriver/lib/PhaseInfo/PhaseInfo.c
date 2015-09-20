@@ -3,7 +3,7 @@
  *
  * Code generation for function 'PhaseInfo'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:17 2015
  *
  */
 
@@ -29,10 +29,8 @@
 
 /* Function Definitions */
 void PhaseInfo(uint8_T NumFocus, real_T PosXFocus, real_T PosYFocus, real_T
-               PosZFocus, real_T Voltage[112], real_T AngleT[112])
+               PosZFocus, real_T Voltage[144], real_T AngleT[144])
 {
-  emxArray_real_T *XDiv;
-  emxArray_real_T *YDiv;
   emxArray_real_T *XArray;
   emxArray_real_T *YArray;
   emxArray_real_T *ZArray;
@@ -48,11 +46,13 @@ void PhaseInfo(uint8_T NumFocus, real_T PosXFocus, real_T PosYFocus, real_T
   real_T DeltaS_data[400];
   int32_T ZDiv_size[2];
   real_T ZDiv_data[400];
-  creal_T H[112];
-  creal_T U[112];
+  int32_T YDiv_size[2];
+  real_T YDiv_data[400];
+  int32_T XDiv_size[2];
+  real_T XDiv_data[400];
+  creal_T H[144];
+  creal_T U[144];
   int32_T k;
-  emxInit_real_T(&XDiv, 2);
-  emxInit_real_T(&YDiv, 2);
   emxInit_real_T(&XArray, 2);
   emxInit_real_T(&YArray, 2);
   emxInit_real_T(&ZArray, 2);
@@ -69,8 +69,9 @@ void PhaseInfo(uint8_T NumFocus, real_T PosXFocus, real_T PosYFocus, real_T
                &expl_temp);
 
   /*  [XDiv YDiv ZDiv DeltaS XYZVectorArrayCor] = ArrayDiv(ElementR,NumRadius,NumAngle); */
-  ArrayDiv(0.005, 20.0, 20.0, XDiv, YDiv, ZDiv_data, ZDiv_size, DeltaS_data,
-           DeltaS_size, XYZVectorArrayCor_data, XYZVectorArrayCor_size);
+  ArrayDiv(0.005, 20.0, 20.0, XDiv_data, XDiv_size, YDiv_data, YDiv_size,
+           ZDiv_data, ZDiv_size, DeltaS_data, DeltaS_size,
+           XYZVectorArrayCor_data, XYZVectorArrayCor_size);
   ForwardMatrix(XYZVectorArrayCor_data, XYZVectorArrayCor_size, DeltaS_data,
                 DeltaS_size, focusInfo_x, focusInfo_y, focusInfo_z, H, XArray,
                 YArray, ZArray);
@@ -78,9 +79,7 @@ void PhaseInfo(uint8_T NumFocus, real_T PosXFocus, real_T PosYFocus, real_T
   emxFree_real_T(&ZArray);
   emxFree_real_T(&YArray);
   emxFree_real_T(&XArray);
-  emxFree_real_T(&YDiv);
-  emxFree_real_T(&XDiv);
-  for (k = 0; k < 112; k++) {
+  for (k = 0; k < 144; k++) {
     Voltage[k] = rt_hypotd_snf(fabs(U[k].re), fabs(U[k].im));
   }
 }

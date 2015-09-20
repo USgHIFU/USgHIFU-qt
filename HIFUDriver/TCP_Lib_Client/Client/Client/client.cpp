@@ -175,6 +175,8 @@ void Client::receivePlanHash()
 
     qCDebug(CLIENT()) << CLIENT().categoryName() << ":" << "RECEIVE TREATMENT PLAN SUCCEEDED.";
     qDebug() << "*******************";
+
+    emit receivingCompleted();
 }
 
 
@@ -269,7 +271,7 @@ QHash<float, QList<int> > Client::getSpotOrder()
     return m_spotOrder;
 }
 
-SpotSonicationParam Client::getParameter()
+SpotSonicationParameter Client::getParameter()
 {
     return m_parameter;
 }

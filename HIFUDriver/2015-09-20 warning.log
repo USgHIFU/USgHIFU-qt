@@ -1,0 +1,2 @@
+14:41:21 Warning: QObject::connect: Cannot connect (null)::error(QSerialPort::SerialPortError) to PowerAmp::handleError(QSerialPort::SerialPortError)
+

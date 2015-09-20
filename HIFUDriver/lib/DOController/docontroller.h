@@ -3,7 +3,6 @@
 
 #include "docontroller_global.h"
 #include <QObject>
-#include <QString>
 #include "inc/bdaqctrl.h"
 #include "constant.h"
 #include "variable.h"
@@ -17,17 +16,18 @@ class DOCONTROLLERSHARED_EXPORT DOController : public QObject
 public:
     DOController(QObject *parent = 0);
     ~DOController();
+    bool isDoExist();
+    void writeData(int port, quint8 state);
     void sendPhase(int channel, quint8 phase);
     void loadPhase();
     void enableDO();
     void disableDO();
-    void writeData(int port, quint8 state);
 
 signals:
     void errorOccurred(QString error);
 
-private:
-    InstantDoCtrl *m_instantDOCtrl;
+private:    
+    InstantDoCtrl* m_instantDOCtrl;
     QString m_deviceName;
     void selectDevice(QString deviceName);
     void checkError(ErrorCode errorCode);

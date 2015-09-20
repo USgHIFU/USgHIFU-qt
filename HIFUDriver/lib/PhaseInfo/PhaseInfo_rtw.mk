@@ -73,7 +73,7 @@ COMPILER_TOOL_CHAIN = vcx64
 #  EXTMODE_STATIC_SIZE - Size of static memory allocation buffer.
 
 MODEL                = PhaseInfo
-MODULES              = PhaseInfo_rtwutil.c PhaseInfo_initialize.c PhaseInfo_terminate.c PhaseInfo.c rdivide.c getArrayInfo.c sum.c colon.c abs.c getFocusInfo.c ArrayDiv.c cos.c sin.c ForwardMatrix.c repmat.c exp.c PsuedoInverse.c fliplr.c angle.c flipud.c round.c PhaseInfo_emxutil.c rt_nonfinite.c rtGetNaN.c rtGetInf.c 
+MODULES              = PhaseInfo_rtwutil.c PhaseInfo_initialize.c PhaseInfo_terminate.c PhaseInfo.c getArrayInfo.c sum.c getFocusInfo.c ArrayDiv.c cos.c sin.c ForwardMatrix.c repmat.c PsuedoInverse.c PhaseInfo_emxutil.c rt_nonfinite.c rtGetNaN.c rtGetInf.c 
 MAKEFILE             = PhaseInfo_rtw.mk
 MATLAB_ROOT          = C:\Program Files\MATLAB\R2012a
 ALT_MATLAB_ROOT      = C:\PROGRA~1\MATLAB\R2012a

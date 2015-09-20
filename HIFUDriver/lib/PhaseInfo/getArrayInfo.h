@@ -3,7 +3,7 @@
  *
  * Code generation for function 'getArrayInfo'
  *
- * C source code generated on: Thu Jul 02 16:18:09 2015
+ * C source code generated on: Fri Sep 11 10:56:17 2015
  *
  */
 
@@ -32,7 +32,7 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-extern void getArrayInfo(real_T *arrayInfo_roc, real_T *arrayInfo_radius, real_T *arrayInfo_numradius, real_T *arrayInfo_numangle, real_T arrayInfo_numringelement[4], real_T arrayInfo_anglez[4], real_T arrayInfo_anglefirstx[4], real_T *arrayInfo_numring, real_T *arrayInfo_numelement, emxArray_real_T *arrayInfo_anglexelement, emxArray_real_T *arrayInfo_anglezelement);
+extern void getArrayInfo(real_T *arrayInfo_roc, real_T *arrayInfo_radius, real_T *arrayInfo_numradius, real_T *arrayInfo_numangle, real_T arrayInfo_numringelement[6], real_T arrayInfo_anglez[6], real_T arrayInfo_anglefirstx[6], real_T *arrayInfo_numring, real_T *arrayInfo_numelement, emxArray_real_T *arrayInfo_anglexelement, emxArray_real_T *arrayInfo_anglezelement);
 #ifdef __cplusplus
 }
 #endif
